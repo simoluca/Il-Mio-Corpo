@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Game
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 25
+  controlID: 116
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 363.19995
     height: 730.8
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 290.4
     height: 432.8
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 26
+  controlID: 22
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 27
+  controlID: 23
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -308,15 +308,49 @@ MonoBehaviour:
   m_ViewTransforms:
     m_KeySerializationHelper:
     - {fileID: -9144245976573788392, guid: dce2b8b6762aace4182f55ffe5504cfd, type: 2}
+    - {fileID: -1220822233229556885, guid: 2ccf3c3483ae71d4a8f349ea9dc7a62a, type: 2}
+    - {fileID: -4944373298856474805, guid: b2b05e8cd53e4d543a076a4951cb1a57, type: 2}
     m_ValueSerializationHelper:
-    - e00: 1
+    - e00: 0.5452632
       e01: 0
       e02: 0
-      e03: 0
+      e03: -12.263153
       e10: 0
-      e11: 1
+      e11: 0.5452632
       e12: 0
-      e13: 0
+      e13: 134.59999
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.5452632
+      e01: 0
+      e02: 0
+      e03: -12.263153
+      e10: 0
+      e11: 0.5452632
+      e12: 0
+      e13: 134.59999
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.5452632
+      e01: 0
+      e02: 0
+      e03: -12.263153
+      e10: 0
+      e11: 0.5452632
+      e12: 0
+      e13: 134.59999
       e20: 0
       e21: 0
       e22: 1
@@ -326,9 +360,9 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: dce2b8b6762aace4182f55ffe5504cfd, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: b2b05e8cd53e4d543a076a4951cb1a57, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: -9144245976573788392, guid: dce2b8b6762aace4182f55ffe5504cfd, type: 2}
+  - m_Target: {fileID: -4944373298856474805, guid: b2b05e8cd53e4d543a076a4951cb1a57, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -382,22 +416,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\simone.luca\Documents\GitHub\Il-Mio-Corpo\IlMioCorpo
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: fe5c0000
-    m_LastClickedID: 23806
-    m_ExpandedIDs: 00000000e65c000000ca9a3b
+    m_SelectedIDs: 705e0000
+    m_LastClickedID: 24176
+    m_ExpandedIDs: 00000000705e0000785e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -425,7 +459,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e65c0000
+    m_ExpandedIDs: 00000000705e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -453,7 +487,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000605b0000b65a000024610000f65c0000
+    m_ExpandedInstanceIDs: c6230000605b0000b65a000024610000f65c0000a4600000a0660000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -512,7 +546,7 @@ MonoBehaviour:
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: 160
+    m_CachedPref: 328
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
@@ -553,9 +587,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 34fbffff
+      m_SelectedIDs: 96a2ffff
+      m_LastClickedID: -23914
+      m_ExpandedIDs: 96a2ffff78daffffb8f9ffff32fbffff34fbffffba5a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -612,8 +646,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: -100, y: -25.600006}
+      snapOffset: {x: -100, y: -25.600006}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -634,7 +668,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 24.8}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-scene-view-toolbar
@@ -804,9 +838,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.54450125, y: 0.16028348, z: 8.597554}
+    m_Target: {x: 0.16175938, y: 1.3640363, z: 0.31768513}
     speed: 2
-    m_Value: {x: 0.54450125, y: 0.16028348, z: 8.597554}
+    m_Value: {x: 0.16175938, y: 1.3640363, z: 0.31768513}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -853,13 +887,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.06090104, y: -0.1668968, z: 0.010328968, w: 0.9840431}
+    m_Target: {x: 0.07427197, y: -0.15936397, z: 0.012024411, w: 0.98435414}
     speed: 2
-    m_Value: {x: 0.060900703, y: -0.1668959, z: 0.010328911, w: 0.9840377}
+    m_Value: {x: 0.074271575, y: -0.15936312, z: 0.012024347, w: 0.98434883}
   m_Size:
-    m_Target: 4.2631183
+    m_Target: 2.0121486
     speed: 2
-    m_Value: 4.4639983
+    m_Value: 2.0121486
   m_Ortho:
     m_Target: 0
     speed: 2
