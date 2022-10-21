@@ -373,6 +373,13 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
+"Assets/_FortuneWheel/Scripts/DotForSound.cs"
+"Assets/_FortuneWheel/Scripts/DotLight.cs"
+"Assets/_FortuneWheel/Scripts/FortuneWheel.cs"
+"Assets/_FortuneWheel/Scripts/FortuneWheelConfig.cs"
+"Assets/_FortuneWheel/Scripts/SetSortOrder.cs"
+"Assets/_FortuneWheel/Scripts/TimerForSpin.cs"
+"Assets/_FortuneWheel/Scripts/WheelPart.cs"
 -langversion:9.0
 
 /deterministic
