@@ -158,7 +158,7 @@ RectTransform:
   - {fileID: 1703152371}
   - {fileID: 2012897076}
   m_Father: {fileID: 2100293203}
-  m_RootOrder: 5
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -237,7 +237,7 @@ RectTransform:
   - {fileID: 1988171168}
   - {fileID: 330762897}
   m_Father: {fileID: 2100293203}
-  m_RootOrder: 1
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3136,6 +3136,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1131930374}
   - component: {fileID: 1131930375}
+  - component: {fileID: 1131930376}
   m_Layer: 5
   m_Name: FortuneWheel
   m_TagString: Untagged
@@ -3183,6 +3184,14 @@ MonoBehaviour:
   wheelPartsParent: {fileID: 887024740}
   lightsParent: {fileID: 1072472307}
   winParticles: {fileID: 1768925558}
+--- !u!222 &1131930376
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131930373}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1139901773
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6139,11 +6148,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1716982235}
-  - {fileID: 38109533}
+  - {fileID: 29278222}
   - {fileID: 1139901774}
   - {fileID: 625250985}
   - {fileID: 2128533353}
-  - {fileID: 29278222}
+  - {fileID: 38109533}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
