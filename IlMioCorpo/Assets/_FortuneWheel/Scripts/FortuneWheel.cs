@@ -100,6 +100,7 @@
             }
             AnimateWheel(true);
         }
+        // range of total body parts
         public int targetToStopOn { get { return Random.Range(0, 12); } }
         public void StartSpin()
         {
