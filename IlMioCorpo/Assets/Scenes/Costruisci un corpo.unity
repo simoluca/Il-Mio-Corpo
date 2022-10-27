@@ -951,6 +951,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 212007160258292138, guid: e95f8a617163480449f527b1e40efc14, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212007160258292138, guid: e95f8a617163480449f527b1e40efc14, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: e10a8a883fb8b024a881f2a1666bed51, type: 3}
@@ -972,6 +976,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4278798657800270740, guid: e95f8a617163480449f527b1e40efc14, type: 3}
+    - {fileID: 647334687801243395, guid: e95f8a617163480449f527b1e40efc14, type: 3}
+    - {fileID: 8908319151804282776, guid: e95f8a617163480449f527b1e40efc14, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e95f8a617163480449f527b1e40efc14, type: 3}
 --- !u!1001 &311280985
 PrefabInstance:
@@ -3021,6 +3027,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4278798657800270740, guid: e95f8a617163480449f527b1e40efc14, type: 3}
+    - {fileID: 647334687801243395, guid: e95f8a617163480449f527b1e40efc14, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e95f8a617163480449f527b1e40efc14, type: 3}
 --- !u!1 &884924663
 GameObject:
