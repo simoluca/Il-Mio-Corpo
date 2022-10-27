@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Costruisci un corpo.unity
+- path: Assets/Scenes/quizTestScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
