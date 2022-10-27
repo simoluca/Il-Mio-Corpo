@@ -27,7 +27,7 @@
         float anglePerReward, anglePerLight;
 
         public int rewardCount { get { return FortuneWheelConfig.Instance.prizes.Length; } }
-        public int lightCount { get { return lightObjs.Length; } }
+        //public int lightCount { get { return lightObjs.Length; } }
         public int Coins
         {
             get { return _coins; }
@@ -41,15 +41,23 @@
         {
             get
             {
-                return _selectReward;
+                
+                return _selectReward;                        
+                
             }
             set
             {
                 _selectReward = Mathf.Clamp(value, 0, FortuneWheelConfig.Instance.prizes.Length);
-                if (spinning)
-                {
-                    selectedText.text = FortuneWheelConfig.GetValueFormated(FortuneWheelConfig.Instance.prizes[_selectReward]);
-                }
+                
+                    if (spinning)
+                    {
+                        selectedText.text = FortuneWheelConfig.GetValueFormated(FortuneWheelConfig.Instance.prizes[_selectReward]);
+
+                        if (selectedText.text == "200")
+                        {
+                                    Debug.Log("START");
+                        }
+                    }
                 else
                 {
                     selectedText.text = "";
@@ -80,16 +88,17 @@
             {
                 wheelParts[i].transform.localEulerAngles = new Vector3(0, 0, (i * -anglePerReward));
             }
-            lightObjs = lightsParent.GetComponentsInChildren<DotLight>();
-            int lights = lightCount + 7;
-            anglePerLight = 360 / lights;
-            int objID = 0;
-            for (int i = 0; i < lights; i++)
+           // lightObjs = lightsParent.GetComponentsInChildren<DotLight>();
+         //  int lights = lightCount + 7;
+          //  anglePerLight = 360 / lights;
+        //    int objID = 0;
+         /*   for (int i = 0; i < lights; i++)
             {
                 if (i >= 7 && i <= 13) continue;
                 lightObjs[objID].transform.localEulerAngles = new Vector3(0, 0, (i * -anglePerLight));
                 objID++;
             }
+            */
             audSource = new AudioSource[5];
             for (int i = 0; i < 5; i++)
             {
@@ -98,16 +107,16 @@
                 source.loop = false;
                 audSource[i] = source;
             }
-            AnimateWheel(true);
+          //  AnimateWheel(true);
         }
-        // range of total body parts
+
         public int targetToStopOn { get { return Random.Range(0, 12); } }
         public void StartSpin()
         {
             if (!spinning)
             {
                 float maxAngle = 360 * FortuneWheelConfig.Instance.speedMultiplier + targetToStopOn * anglePerReward;
-                AnimateWheel(false);
+         //       AnimateWheel(false);
                 StartCoroutine(RotateWheel(FortuneWheelConfig.Instance.duration, maxAngle));
             }
         }
@@ -132,8 +141,12 @@
         }
         void GivePrize()
         {
-            AnimateWheel(true);
+            
+           // AnimateWheel(true);
             spinning = false;
+                        // at this point in time the spin stops
+                                    Debug.Log("REWARD time");
+                        
             spinButton.interactable = Coins >= cost;
             Coins += FortuneWheelConfig.Instance.prizes[SelectedReward];
             SelectedReward = 0;
@@ -164,6 +177,7 @@
         {
             PlayHitClip();
         }
+        /*
         public void AnimateWheel(bool playAnim)
         {
             StopAllCoroutines();
@@ -183,7 +197,7 @@
                 StartCoroutine(LightAnimDuringSpinning(20));
             }
         }
-
+/*
         IEnumerator PlayAnimationWhenStationary(Sprite sp1, Sprite sp2)
         {
             yield return new WaitForSeconds(0.2f);
@@ -234,6 +248,7 @@
                 StartCoroutine(SymetricLightMovement(index + 1));
             }
         }
+        */
         public void PlayHitClip()
         {
             for (int i = 0; i < audSource.Length; i++)
