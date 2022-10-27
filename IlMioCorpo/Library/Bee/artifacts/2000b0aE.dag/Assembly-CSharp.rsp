@@ -334,6 +334,7 @@
 -r:"Library/Bee/artifacts/2000b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Manager.cs"
 "Assets/Prefabs/AnatomicPack/Scripts/CameraWaypoint.cs"
 "Assets/Prefabs/AnatomicPack/Scripts/MyRotatable.cs"
 "Assets/Prefabs/AnatomicPack/Scripts/Rotator.cs"
