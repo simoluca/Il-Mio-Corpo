@@ -39,8 +39,70 @@
         }
         public int SelectedReward
         {
+            
             get
             {
+                if(_selectReward == 1)
+                 {
+                                     Debug.Log("LARGE INTESTINE is chosen");
+
+                 }
+                     if(_selectReward == 2)
+                 {
+                                     Debug.Log("SMALL INTESTINE is chosen");
+
+                 }
+                     if(_selectReward == 3)
+                 {
+                                     Debug.Log("3 STOMACH is chosen");
+
+                 }
+                     if(_selectReward == 4)
+                 {
+                                     Debug.Log("KIDNEYS ARE chosen");
+
+                 }
+                     if(_selectReward == 5)
+                 {
+                                     Debug.Log("SPINE is chosen");
+
+                 }
+                     if(_selectReward == 6)
+                 {
+                                     Debug.Log("RIB CAGE is chosen");
+
+                 }
+                     if(_selectReward == 7)
+                 {
+                                     Debug.Log("HEART is chosen");
+
+                 }
+                    if(_selectReward == 8)
+                 {
+                                     Debug.Log("8 is chosen");
+
+                 }
+                    if(_selectReward == 9)
+                 {
+                                     Debug.Log("HAND is chosen");
+
+                 }
+                    if(_selectReward == 10)
+                 {
+                                     Debug.Log("LUNGS are chosen");
+
+                 }
+                    if(_selectReward == 11)
+                 {
+                                     Debug.Log("kidneys chosen");
+
+                 }
+                    if(_selectReward == 12)
+                 {
+                                     Debug.Log("SKULL is chosen");
+
+                 }
+
                 
                 return _selectReward;                        
                 
@@ -48,18 +110,22 @@
             set
             {
                 _selectReward = Mathf.Clamp(value, 0, FortuneWheelConfig.Instance.prizes.Length);
-                
+                // Debug.Log(_selectReward);
+                 
+
                     if (spinning)
                     {
                         selectedText.text = FortuneWheelConfig.GetValueFormated(FortuneWheelConfig.Instance.prizes[_selectReward]);
-
+/*
                         if (selectedText.text == "200")
                         {
                                     Debug.Log("START");
                         }
+                        */
                     }
                 else
                 {
+                    
                     selectedText.text = "";
                 }
             }
