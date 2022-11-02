@@ -1023,9 +1023,21 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: -7474345830175302215, guid: 50016fb8afd18ef48ae1ffcc0f8c8cb4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -5634701953682501678, guid: 50016fb8afd18ef48ae1ffcc0f8c8cb4, type: 3}
       propertyPath: m_Layer
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -5634701953682501678, guid: 50016fb8afd18ef48ae1ffcc0f8c8cb4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3961910852240282010, guid: 50016fb8afd18ef48ae1ffcc0f8c8cb4, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -2548197064822906588, guid: 50016fb8afd18ef48ae1ffcc0f8c8cb4, type: 3}
       propertyPath: m_Lightmapping
@@ -1090,6 +1102,10 @@ PrefabInstance:
     - target: {fileID: 2787702007429381009, guid: 50016fb8afd18ef48ae1ffcc0f8c8cb4, type: 3}
       propertyPath: m_Layer
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2787702007429381009, guid: 50016fb8afd18ef48ae1ffcc0f8c8cb4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4302292128943255643, guid: 50016fb8afd18ef48ae1ffcc0f8c8cb4, type: 3}
       propertyPath: m_Lightmapping

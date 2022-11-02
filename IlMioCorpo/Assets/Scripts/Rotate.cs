@@ -30,11 +30,16 @@ public class Rotate : MonoBehaviour
         // initially set to false to a new coroutine will not start
         coroutineAllowed = false;
 
+        /*
+        each loop has 10 steps of 0.1 from 0 to 1
+        */
         for (float i = 0f; i <= 1f; i += 0.1f)
         {
-            transform.Rotate(new Vector3(0f, 200f, 0f) * Time.deltaTime);   
+            transform.Rotate(new Vector3(0f, 300f, 0f) * Time.deltaTime);   
             yield return new WaitForSeconds(0.015f);
         }
+        
+        
          coroutineAllowed = true;
 
     }
