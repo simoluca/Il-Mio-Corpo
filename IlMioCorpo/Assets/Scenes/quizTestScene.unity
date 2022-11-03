@@ -817,7 +817,7 @@ GameObject:
   m_Component:
   - component: {fileID: 206848350}
   - component: {fileID: 206848349}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: legbone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1939,7 +1939,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400888140}
   - component: {fileID: 400888141}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: black line (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2772,7 +2772,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8193860463257334203, guid: a2d97f6070202714e8510c44567b31c6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -63.963997
+      value: -94
       objectReference: {fileID: 0}
     - target: {fileID: 8193860463257334203, guid: a2d97f6070202714e8510c44567b31c6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3418,7 +3418,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 99.3, y: 36.300003}
+  m_AnchoredPosition: {x: 99.29999, y: 36.300003}
   m_SizeDelta: {x: -7, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &890009059
@@ -3779,7 +3779,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1066741403}
   - component: {fileID: 1066741404}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: black line (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4264,7 +4264,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 867f737ccabe3c543ae12df6abf9fe06, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -518
+      value: -548.036
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 867f737ccabe3c543ae12df6abf9fe06, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4679,7 +4679,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -889, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 800, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1235891447
@@ -4730,7 +4730,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1290714436}
   - component: {fileID: 1290714437}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: black line (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5071,7 +5071,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1321422882}
   - component: {fileID: 1321422883}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: black line (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6372,6 +6372,7 @@ GameObject:
   - component: {fileID: 1824513905}
   - component: {fileID: 1824513907}
   - component: {fileID: 1824513906}
+  - component: {fileID: 1824513908}
   m_Layer: 5
   m_Name: Perone
   m_TagString: Untagged
@@ -6438,6 +6439,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1824513904}
   m_CullTransparentMesh: 1
+--- !u!114 &1824513908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1824513904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9244c9daa28aa564a9a4176e826e3bab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 2100293202}
 --- !u!1 &1918908039
 GameObject:
   m_ObjectHideFlags: 0
@@ -7096,7 +7110,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2145578060
 RectTransform:
   m_ObjectHideFlags: 0
