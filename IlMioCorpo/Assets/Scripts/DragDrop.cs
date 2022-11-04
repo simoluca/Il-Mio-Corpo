@@ -13,6 +13,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
 {
 
     [SerializeField] private Canvas canvas;
+    private Vector2 mousePosition = new Vector2();
 
 
 
@@ -26,6 +27,12 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
 
         rectTransform = GetComponent<RectTransform>();
 
+    }
+
+     private void UpdateMousePosition()
+    {
+        mousePosition.x = Input.mousePosition.x;
+        mousePosition.y = Input.mousePosition.y;
     }
 
 
