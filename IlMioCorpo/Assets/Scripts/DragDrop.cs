@@ -13,7 +13,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
 {
 
     [SerializeField] private Canvas canvas;
-    private Vector2 mousePosition = new Vector2();
+    //private Vector2 mousePosition = new Vector2();
 
 
 
@@ -28,17 +28,13 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
         rectTransform = GetComponent<RectTransform>();
 
     }
-
+/*
      private void UpdateMousePosition()
     {
         mousePosition.x = Input.mousePosition.x;
         mousePosition.y = Input.mousePosition.y;
     }
-
-
-
-
-
+*/
 
     // called when begin dragging
     public void OnBeginDrag(PointerEventData eventData)
@@ -56,9 +52,13 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     {
 
         Debug.Log("OnDrag");
-
+        
+        Cursor.visible = false;
         // contains movement delta which is the amount that the mouse moved since the previous
-        rectTransform.anchoredPosition += eventData.delta * canvas.scaleFactor;
+       // rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
+
+        rectTransform.anchoredPosition += (eventData.delta * 2) / canvas.scaleFactor;
+        
 
     }
 
@@ -67,7 +67,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
         public void OnEndDrag(PointerEventData eventData)
 
         {
-
+            Cursor.visible = true;
             Debug.Log("OnEndDrag");
 
         }
