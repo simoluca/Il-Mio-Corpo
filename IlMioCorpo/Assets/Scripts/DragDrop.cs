@@ -41,7 +41,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
 
     {
 
-        Debug.Log("OnBeginDrag");
+      //  Debug.Log("OnBeginDrag");
 
     }
 
@@ -51,13 +51,13 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
 
     {
 
-        Debug.Log("OnDrag");
+       // Debug.Log("OnDrag");
         
         Cursor.visible = false;
         // contains movement delta which is the amount that the mouse moved since the previous
        // rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
 
-        rectTransform.anchoredPosition += (eventData.delta * 2) / canvas.scaleFactor;
+        rectTransform.anchoredPosition += eventData.delta   / canvas.scaleFactor;
         
 
     }
@@ -68,7 +68,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
 
         {
             Cursor.visible = true;
-            Debug.Log("OnEndDrag");
+        //    Debug.Log("OnEndDrag");
 
         }
 
@@ -78,7 +78,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
 
         {
 
-            Debug.Log("OnPointerDown");
+        //    Debug.Log("OnPointerDown");
 
         }
 
