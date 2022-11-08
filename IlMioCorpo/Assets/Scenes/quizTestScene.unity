@@ -6435,7 +6435,7 @@ GameObject:
   - component: {fileID: 1824513905}
   - component: {fileID: 1824513907}
   - component: {fileID: 1824513906}
-  - component: {fileID: 1824513908}
+  - component: {fileID: 1824513911}
   - component: {fileID: 1824513910}
   - component: {fileID: 1824513909}
   m_Layer: 5
@@ -6504,19 +6504,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1824513904}
   m_CullTransparentMesh: 1
---- !u!114 &1824513908
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1824513904}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9244c9daa28aa564a9a4176e826e3bab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 2100293202}
 --- !u!61 &1824513909
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6564,6 +6551,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1824513911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1824513904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36e1f39878ade8043a9cb607a2c42bf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myCanvas: {fileID: 0}
 --- !u!1 &1918908039
 GameObject:
   m_ObjectHideFlags: 0
