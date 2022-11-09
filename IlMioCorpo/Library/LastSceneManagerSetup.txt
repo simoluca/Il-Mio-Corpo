@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/quizTestScene.unity
+- path: Assets/Scenes/QuizOssaGamba.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
