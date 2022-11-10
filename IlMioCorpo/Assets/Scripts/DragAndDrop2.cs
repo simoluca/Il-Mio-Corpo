@@ -7,15 +7,18 @@ public class DragAndDrop2 : MonoBehaviour, IPointerDownHandler, IBeginDragHandle
 {
     private RectTransform rectTrans;
     public Canvas myCanvas;
+    private CanvasGroup canvasGroup;
 
     void Start()
     {
         rectTrans = GetComponent<RectTransform>();
+        canvasGroup = GetComponent<CanvasGroup>();
     }
     
     public void OnBeginDrag(PointerEventData eventData)
     {
         Debug.Log("BeginDrag");
+       canvasGroup.blocksRaycasts = false;
     }
     
     // called on every frame moving object around
@@ -28,6 +31,7 @@ public class DragAndDrop2 : MonoBehaviour, IPointerDownHandler, IBeginDragHandle
     public void OnEndDrag(PointerEventData eventData)
     {
         Debug.Log("EndDrag");
+        canvasGroup.blocksRaycasts = true;
     }
     public void OnPointerDown(PointerEventData eventData)
     {
