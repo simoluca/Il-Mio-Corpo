@@ -18,7 +18,8 @@
 
         public GameObject winParticles;
 
-        int _selectReward, _coins, count = 0, cost = 300;
+        int _selectReward, _coins, cost = 300;
+        //int count = 0
         AudioSource[] audSource;
         WheelPart[] wheelParts;
         DotLight[] lightObjs;
