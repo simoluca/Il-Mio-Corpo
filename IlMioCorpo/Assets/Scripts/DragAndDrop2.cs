@@ -2,17 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
-//https://www.youtube.com/watch?v=pEOetyJ0ULE   3.12
+
 public class DragAndDrop2 : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler
 {
     private RectTransform rectTrans;
     public Canvas myCanvas;
     private CanvasGroup canvasGroup;
+    public int id;
+    //store the starting position of each item in Vector2 variable
+    public Vector2 initPos;
 
     void Start()
     {
         rectTrans = GetComponent<RectTransform>();
         canvasGroup = GetComponent<CanvasGroup>();
+        initPos = transform.position;
     }
     
     public void OnBeginDrag(PointerEventData eventData)
@@ -36,6 +40,12 @@ public class DragAndDrop2 : MonoBehaviour, IPointerDownHandler, IBeginDragHandle
     public void OnPointerDown(PointerEventData eventData)
     {
         Debug.Log("CLICK");
+    }
+
+    //reset position of game object to starting pisition
+    public void ResetPosition()
+    {
+        transform.position = initPos; 
     }
     
     

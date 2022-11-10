@@ -4,7 +4,9 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class SlotScript : MonoBehaviour, IDropHandler
-{
+{ 
+    public int id;
+
     public void OnDrop(PointerEventData eventData)
     {
         Debug.Log("Item Dropped");
@@ -15,8 +17,18 @@ public class SlotScript : MonoBehaviour, IDropHandler
         // In this case we access the RectTransform>().anchoredPosition and make
         // it equal to the anchoredPosition of the slot.
         if(eventData.pointerDrag != null)
-        {
-            eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = this.GetComponent<RectTransform>().anchoredPosition;
+        {   
+            // Check if item id matches slot id
+            if(eventData.pointerDrag.GetComponent<DragAndDrop2>().id == id)
+            {
+                 eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = this.GetComponent<RectTransform>().anchoredPosition;
+                //Debug.Log("CORRECT");
+            }
+                else
+                {
+                    eventData.pointerDrag.GetComponent<DragAndDrop2>().ResetPosition();
+                    //Debug.Log("FALSE");
+                }
         }
     }
     
