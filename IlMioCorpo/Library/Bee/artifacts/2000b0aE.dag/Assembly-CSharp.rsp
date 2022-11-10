@@ -339,6 +339,7 @@
 "Assets/Prefabs/AnatomicPack/Scripts/Rotator.cs"
 "Assets/Prefabs/AnatomicPack/Scripts/Shower.cs"
 "Assets/Scripts/DragAndDrop2.cs"
+"Assets/Scripts/EnabledOrDisabled.cs"
 "Assets/Scripts/Rotate.cs"
 "Assets/Scripts/SceneChange.cs"
 "Assets/Scripts/SlotScript.cs"
