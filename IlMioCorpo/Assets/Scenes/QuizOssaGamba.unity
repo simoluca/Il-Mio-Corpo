@@ -4244,7 +4244,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73078ad09e7cddf4aac618cff0221ac3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pic: {fileID: 1174889938}
+  helpPopUp: {fileID: 1174889938}
 --- !u!114 &2043144335
 MonoBehaviour:
   m_ObjectHideFlags: 0

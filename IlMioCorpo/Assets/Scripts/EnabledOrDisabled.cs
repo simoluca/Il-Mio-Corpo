@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class EnabledOrDisabled : MonoBehaviour
 {
-    public GameObject pic;
+    public GameObject helpPopUp;
 
     public void Trigger(){
-        if(pic.activeInHierarchy == false){
-            pic.SetActive(true);
+        if(helpPopUp.activeInHierarchy == false){
+            helpPopUp.SetActive(true);
 
         }
         else{
-            pic.SetActive(false);
+            helpPopUp.SetActive(false);
         }
     }
 }
