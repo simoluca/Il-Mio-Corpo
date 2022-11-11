@@ -1916,6 +1916,22 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 212007160258292138, guid: e95f8a617163480449f527b1e40efc14, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 68c821635bccd2a4e86728e3a6ce94ad, type: 3}
+    - target: {fileID: 6240502973392622382, guid: e95f8a617163480449f527b1e40efc14, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.34974
+      objectReference: {fileID: 0}
+    - target: {fileID: 6240502973392622382, guid: e95f8a617163480449f527b1e40efc14, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.34974
+      objectReference: {fileID: 0}
+    - target: {fileID: 6240502973392622382, guid: e95f8a617163480449f527b1e40efc14, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.69948
+      objectReference: {fileID: 0}
     - target: {fileID: 7948655473747857676, guid: e95f8a617163480449f527b1e40efc14, type: 3}
       propertyPath: m_RootOrder
       value: 8
