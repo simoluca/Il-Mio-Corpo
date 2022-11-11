@@ -344,6 +344,7 @@
 "Assets/Scripts/EnabledOrDisabled.cs"
 "Assets/Scripts/Rotate.cs"
 "Assets/Scripts/SceneChange.cs"
+"Assets/Scripts/SceneChangeCHIUDI.cs"
 "Assets/Scripts/SlotScript.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
