@@ -15,6 +15,7 @@ public class RadioButtonSystems : MonoBehaviour
     public void Submit()
     {
         Toggle toggle = toggleGroup.ActiveToggles().FirstOrDefault();
-        Debug.Log(toggle.name + " _ " + toggle.GetComponentInChildren<Text>().text);
+       // Debug.Log(toggle.name + " _ " + toggle.GetComponentInChildren<Text>().text);
+       Debug.Log(toggle.name);
     }
 }
