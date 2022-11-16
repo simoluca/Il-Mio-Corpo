@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Linq;
+using System.Collections;
 
 public class RadioButtonSystems : MonoBehaviour
 {
@@ -27,8 +28,15 @@ public class RadioButtonSystems : MonoBehaviour
        if(toggle.name == "Grasso" || toggle.name == "Gomma")
        {
             RetryText.SetActive(true);
+            StartCoroutine(RemoveAfterSeconds(RetryText));
             Debug.Log("riprova");
        }
     }
+
+     IEnumerator RemoveAfterSeconds(GameObject ob)
+    {
+            yield return new WaitForSeconds(1);
+            RetryText.SetActive(false);
+        }
 
 }
