@@ -17,5 +17,11 @@ public class RadioButtonSystems : MonoBehaviour
         Toggle toggle = toggleGroup.ActiveToggles().FirstOrDefault();
        // Debug.Log(toggle.name + " _ " + toggle.GetComponentInChildren<Text>().text);
        Debug.Log(toggle.name);
+
+       if(toggle.name == "Muscolo")
+       {
+            Debug.Log("ok");
+       }
     }
+
 }
