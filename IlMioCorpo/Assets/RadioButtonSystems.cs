@@ -3,14 +3,15 @@ using UnityEngine.UI;
 using System.Linq;
 using System.Collections;
 
-//radiobuttonsystem for stomach quiz
+//radiobuttonsystem for stomach quiz, handles various popups as well as audio sources
 
 public class RadioButtonSystems : MonoBehaviour
 {
     ToggleGroup toggleGroup;
     public GameObject RetryText;
     public GameObject CorrettoPopUp;
-
+    public AudioSource CorrectAudio;
+    public AudioSource WrongAudio;
     
     private void Start()
     {
@@ -26,12 +27,14 @@ public class RadioButtonSystems : MonoBehaviour
        if(toggle.name == "Muscolo")
        {
             Debug.Log("ok");
+            CorrectAudio.Play();
             CorrettoPopUp.SetActive(true);
 
        }
 
        if(toggle.name == "Grasso" || toggle.name == "Gomma")
        {
+            WrongAudio.Play();
             RetryText.SetActive(true);
             StartCoroutine(RemoveAfterSeconds(RetryText));
             Debug.Log("riprova");
