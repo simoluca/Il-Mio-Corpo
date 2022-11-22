@@ -3,7 +3,7 @@ using UnityEngine.UI;
 using System.Linq;
 using System.Collections;
 
-//radiobuttonsystem for stomach quiz, handles various popups as well as audio sources
+//radiobuttonsystem for radio button type quizes, handles various popups as well as audio sources
 
 public class RadioButtonSystems : MonoBehaviour
 {
@@ -24,7 +24,7 @@ public class RadioButtonSystems : MonoBehaviour
        // Debug.Log(toggle.name + " _ " + toggle.GetComponentInChildren<Text>().text);
       // Debug.Log(toggle.name);
 
-       if(toggle.name == "Muscolo")
+       if(toggle.name == "Muscolo" || toggle.name == "Urina")
        {
             Debug.Log("ok");
             CorrectAudio.Play();
@@ -32,7 +32,7 @@ public class RadioButtonSystems : MonoBehaviour
 
        }
 
-       if(toggle.name == "Grasso" || toggle.name == "Gomma")
+       if(toggle.name == "Grasso" || toggle.name == "Gomma" || toggle.name == "Acqua" || toggle.name == "Bile")
        {
             WrongAudio.Play();
             RetryText.SetActive(true);

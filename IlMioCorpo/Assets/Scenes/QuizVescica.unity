@@ -4061,12 +4061,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Lo stomaco rimescola il cibo e lo trasforma in una crema sciolta chiamata
-    chimo. In questo modo, i succhi gastrici che fuoriescono dalla parete dello stomaco
-    aiutano a sciogliere e digerire il cibo. Questi succhi contengono enzimi e forti
-    sostanze chimiche chiamate acidi. Gli acidi uccidono anche eventuali germi nocivi
-    ingeriti con il cibo. La parete dello stomaco \xE8 formata da tre strati o tonache:
-    la mucosa gastrica, la tonaca muscolare e la tonaca sierosa."
+  m_text: "La vescica \xE8 una sacca forte e muscolare che immagazzina l'urina. Uno
+    stretto anello di muscoli, chiamato sfintere, tiene chiusa la vescica finch\xE9
+    non si \xE8 pronti a rilasciare l'urina. Lo sfintere si rilassa e l'urina esce
+    dal corpo attraverso l'uretra."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: b246c4190f4e46ec9352fe15a7b09ce0, type: 2}
