@@ -3,6 +3,8 @@ using UnityEngine.UI;
 using System.Linq;
 using System.Collections;
 
+//radiobuttonsystem for stomach quiz
+
 public class RadioButtonSystems : MonoBehaviour
 {
     ToggleGroup toggleGroup;
