@@ -7,6 +7,7 @@ public class RadioButtonSystems : MonoBehaviour
 {
     ToggleGroup toggleGroup;
     public GameObject RetryText;
+    public GameObject CorrettoPopUp;
 
     
     private void Start()
@@ -23,6 +24,8 @@ public class RadioButtonSystems : MonoBehaviour
        if(toggle.name == "Muscolo")
        {
             Debug.Log("ok");
+            CorrettoPopUp.SetActive(true);
+
        }
 
        if(toggle.name == "Grasso" || toggle.name == "Gomma")
