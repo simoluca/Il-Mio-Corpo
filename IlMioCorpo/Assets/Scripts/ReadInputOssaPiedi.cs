@@ -2,25 +2,38 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class ReadInputOssaPiedi : MonoBehaviour
 {
     // this will allow to store the text entry
     private string input;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
+     public GameObject RetryText;
+    public GameObject CorrettoPopUp;
+    public AudioSource CorrectAudio;
+    public AudioSource WrongAudio;
 
     public void ReadStringInput(string s)
     {
         input = s;
-        Debug.Log(input);
+        if(s == "26")
+        {
+            CorrectAudio.Play();
+            CorrettoPopUp.SetActive(true);
+        }
+            else
+            {
+                WrongAudio.Play();
+                RetryText.SetActive(true);
+                StartCoroutine(RemoveAfterSeconds(RetryText));
+            }
+        
+        IEnumerator RemoveAfterSeconds(GameObject ob)
+        {
+            yield return new WaitForSeconds(1);
+            RetryText.SetActive(false);
+        }
+       // Debug.Log(input);
+
     }
 }
