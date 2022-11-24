@@ -49,7 +49,7 @@
                 if(_selectReward == 1)
                  {
                                      Debug.Log("LARGE INTESTINE is chosen");
-                                     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                                     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
 
                  }
                      if(_selectReward == 2)
@@ -62,7 +62,7 @@
                      if(_selectReward == 3)
                  {
                                      Debug.Log("3 STOMACH is chosen");
-                                     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                                     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);
 
                  }
                      if(_selectReward == 4)
