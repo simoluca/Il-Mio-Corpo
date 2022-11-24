@@ -343,6 +343,7 @@
 "Assets/Scripts/EnabledOrDisabled.cs"
 "Assets/Scripts/Manager.cs"
 "Assets/Scripts/RadioButtonSystems.cs"
+"Assets/Scripts/ReadInputOssaPiedi.cs"
 "Assets/Scripts/Rotate.cs"
 "Assets/Scripts/SceneChange.cs"
 "Assets/Scripts/SceneChangeCHIUDI.cs"
