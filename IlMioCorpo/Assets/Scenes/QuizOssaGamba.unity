@@ -687,6 +687,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 2
+  correctpopup: {fileID: 0}
 --- !u!1 &253297630
 GameObject:
   m_ObjectHideFlags: 0
@@ -1172,6 +1173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 4
+  correctpopup: {fileID: 1069042454}
 --- !u!1 &549111342
 GameObject:
   m_ObjectHideFlags: 0
@@ -2424,6 +2426,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 1
+  correctpopup: {fileID: 0}
 --- !u!1 &1509481643
 GameObject:
   m_ObjectHideFlags: 0
@@ -2698,6 +2701,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 3
+  correctpopup: {fileID: 0}
 --- !u!1 &1546626031
 GameObject:
   m_ObjectHideFlags: 0

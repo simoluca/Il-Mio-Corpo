@@ -3,10 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
+// slot script for leg bone quiz
+
 public class SlotScript : MonoBehaviour, IDropHandler
 { 
     public int id;
     public static int id_counter = 0;
+    public GameObject correctpopup;
+
 
     public void OnDrop(PointerEventData eventData)
     {
@@ -40,7 +44,9 @@ public class SlotScript : MonoBehaviour, IDropHandler
 
         if(id_counter ==  4)
             {
-                Debug.Log("Corretto");
+                correctpopup.SetActive(true);
+                //Debug.Log("Corretto");
+
             }
     }
      
