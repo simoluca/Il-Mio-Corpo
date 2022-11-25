@@ -334,6 +334,13 @@
 -r:"Library/Bee/artifacts/2000b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/FortuneWheel/Scripts/DotForSound.cs"
+"Assets/FortuneWheel/Scripts/DotLight.cs"
+"Assets/FortuneWheel/Scripts/FortuneWheel.cs"
+"Assets/FortuneWheel/Scripts/FortuneWheelConfig.cs"
+"Assets/FortuneWheel/Scripts/SetSortOrder.cs"
+"Assets/FortuneWheel/Scripts/TimerForSpin.cs"
+"Assets/FortuneWheel/Scripts/WheelPart.cs"
 "Assets/Prefabs/AnatomicPack/Scripts/CameraWaypoint.cs"
 "Assets/Prefabs/AnatomicPack/Scripts/MyRotatable.cs"
 "Assets/Prefabs/AnatomicPack/Scripts/Rotator.cs"
@@ -384,13 +391,6 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
-"Assets/_FortuneWheel/Scripts/DotForSound.cs"
-"Assets/_FortuneWheel/Scripts/DotLight.cs"
-"Assets/_FortuneWheel/Scripts/FortuneWheel.cs"
-"Assets/_FortuneWheel/Scripts/FortuneWheelConfig.cs"
-"Assets/_FortuneWheel/Scripts/SetSortOrder.cs"
-"Assets/_FortuneWheel/Scripts/TimerForSpin.cs"
-"Assets/_FortuneWheel/Scripts/WheelPart.cs"
 -langversion:9.0
 
 /deterministic
