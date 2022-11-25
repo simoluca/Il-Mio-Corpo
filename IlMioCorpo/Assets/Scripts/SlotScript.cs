@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-// slot script for leg bone quiz
+// slot script for 4 slot element quizes
 
 public class SlotScript : MonoBehaviour, IDropHandler
 { 
