@@ -26,7 +26,7 @@ public class SlotScriptLargeIntestine : MonoBehaviour, IDropHandler
         if(eventData.pointerDrag != null)
         {   
             // Check if item id matches slot id
-            if(eventData.pointerDrag.GetComponent<DragAndDrop2>().id == id)
+            if(eventData.pointerDrag.GetComponent<DragAndDrop>().id == id)
             {
                 id_counter++;
                  eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = this.GetComponent<RectTransform>().anchoredPosition;
@@ -37,7 +37,7 @@ public class SlotScriptLargeIntestine : MonoBehaviour, IDropHandler
             
                 else
                 {
-                    eventData.pointerDrag.GetComponent<DragAndDrop2>().ResetPosition();
+                    eventData.pointerDrag.GetComponent<DragAndDrop>().ResetPosition();
                     //Debug.Log("FALSE");
                 }
         }

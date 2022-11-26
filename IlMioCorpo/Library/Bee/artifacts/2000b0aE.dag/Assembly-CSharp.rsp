@@ -344,7 +344,7 @@
 "Assets/Prefabs/AnatomicPack/Scripts/Rotator.cs"
 "Assets/Prefabs/AnatomicPack/Scripts/Shower.cs"
 "Assets/Scripts/CollisionDetector.cs"
-"Assets/Scripts/DragAndDrop2.cs"
+"Assets/Scripts/DragAndDrop.cs"
 "Assets/Scripts/EnabledOrDisabled.cs"
 "Assets/Scripts/Manager.cs"
 "Assets/Scripts/RadioButtonSystems.cs"
