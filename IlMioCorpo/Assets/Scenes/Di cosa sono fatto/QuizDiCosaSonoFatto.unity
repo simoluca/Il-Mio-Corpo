@@ -1428,6 +1428,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 3
   correctpopup: {fileID: 0}
+  CorrectAudio: {fileID: 0}
 --- !u!225 &109796691
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -9216,6 +9217,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 1
   correctpopup: {fileID: 714125508}
+  CorrectAudio: {fileID: 34146056}
 --- !u!61 &665599255
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9512,6 +9514,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   correctpopup: {fileID: 714125508}
+  CorrectAudio: {fileID: 34146056}
 --- !u!61 &705633957
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12126,6 +12129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 1
   correctpopup: {fileID: 0}
+  CorrectAudio: {fileID: 0}
 --- !u!225 &1007002602
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -15001,6 +15005,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 4
   correctpopup: {fileID: 714125508}
+  CorrectAudio: {fileID: 34146056}
 --- !u!61 &1199337041
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16576,6 +16581,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 3
   correctpopup: {fileID: 796233140}
+  CorrectAudio: {fileID: 0}
 --- !u!61 &1334881802
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17055,6 +17061,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 4
   correctpopup: {fileID: 796233140}
+  CorrectAudio: {fileID: 0}
 --- !u!61 &1371540262
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17422,6 +17429,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   correctpopup: {fileID: 796233140}
+  CorrectAudio: {fileID: 0}
 --- !u!61 &1404823940
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18150,6 +18158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   correctpopup: {fileID: 0}
+  CorrectAudio: {fileID: 0}
 --- !u!225 &1472117815
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -21528,6 +21537,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 1
   correctpopup: {fileID: 796233140}
+  CorrectAudio: {fileID: 0}
 --- !u!61 &1670700080
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24711,6 +24721,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 3
   correctpopup: {fileID: 714125508}
+  CorrectAudio: {fileID: 34146056}
 --- !u!61 &1971979786
 BoxCollider2D:
   m_ObjectHideFlags: 0
