@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: bace66e9890fddc45836ee3c11152276
   - enabled: 1
-    path: Assets/Scenes/Di cosa sono fatto.unity
+    path: Assets/Scenes/Di cosa sono fatto/Di cosa sono fatto.unity
     guid: 9ad2e3372cc4c014ab8d368535a5246c
   - enabled: 1
     path: Assets/Scenes/QuizOssaGamba.unity
