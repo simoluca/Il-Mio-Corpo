@@ -26,7 +26,7 @@ public class RadioButtonSystems : MonoBehaviour
 
        if(toggle.name == "Muscolo" || toggle.name == "Urina")
        {
-            Debug.Log("ok");
+           // Debug.Log("ok");
             CorrectAudio.Play();
             CorrettoPopUp.SetActive(true);
 
