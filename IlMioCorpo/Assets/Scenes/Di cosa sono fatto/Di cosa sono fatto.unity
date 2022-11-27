@@ -140,7 +140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &38109533
 RectTransform:
   m_ObjectHideFlags: 0
@@ -656,6 +656,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: e10a8a883fb8b024a881f2a1666bed51, type: 3}
+    - target: {fileID: 212007160258292138, guid: e95f8a617163480449f527b1e40efc14, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6240502973392622382, guid: e95f8a617163480449f527b1e40efc14, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.11144975
@@ -3955,7 +3959,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1310265321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3975,6 +3979,14 @@ MonoBehaviour:
   wheelToRotate: {fileID: 72397080}
   wheelPartsParent: {fileID: 1529335454}
   lightsParent: {fileID: 1597831546}
+  DiCosaSonoFatto: {fileID: 0}
+  QuizOcchi: {fileID: 0}
+  QuizIntestinoCrasso: {fileID: 0}
+  QuizOssaGambe: {fileID: 0}
+  QuizOssaPiedi: {fileID: 0}
+  QuizSpinaDorsale: {fileID: 0}
+  QuizStomaco: {fileID: 0}
+  QuizVescica: {fileID: 0}
   winParticles: {fileID: 1844830887}
 --- !u!4 &1310265322
 Transform:
@@ -4991,7 +5003,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0.644217, y: -0.01489225}
-  m_ConnectedAnchor: {x: 4.6192718, y: 1.657051}
+  m_ConnectedAnchor: {x: 5.179881, y: 1.8581561}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0

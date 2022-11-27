@@ -23,7 +23,7 @@
         public GameObject winParticles;
 
         int _selectReward, _coins, cost = 300;
-        //int count = 0
+        int count = 0;
         AudioSource[] audSource;
         WheelPart[] wheelParts;
         DotLight[] lightObjs;
@@ -32,7 +32,7 @@
         float anglePerReward, anglePerLight;
 
         public int rewardCount { get { return FortuneWheelConfig.Instance.prizes.Length; } }
-        //public int lightCount { get { return lightObjs.Length; } }
+        public int lightCount { get { return lightObjs.Length; } }
         public int Coins
         {
             get { return _coins; }
@@ -50,9 +50,9 @@
                 if(_selectReward == 1)
                  {
                                      Debug.Log("LARGE INTESTINE is chosen");
-                                     DiCosaSonoFatto.SetActive(true);
+                                  //   DiCosaSonoFatto.SetActive(true);
                                      //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
-                                     QuizIntestinoCrasso.SetActive(true);
+                                  //   QuizIntestinoCrasso.SetActive(true);
 
                  }
                      if(_selectReward == 2)
@@ -65,22 +65,22 @@
                      if(_selectReward == 3)
                  {
                                      Debug.Log("3 STOMACH is chosen");
-                                      DiCosaSonoFatto.SetActive(true);
+                                     // DiCosaSonoFatto.SetActive(true);
                                      //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);
-                                    QuizStomaco.SetActive(true);
+                                 //   QuizStomaco.SetActive(true);
                  }
                      if(_selectReward == 4)
                  {
                                      Debug.Log("KIDNEYS ARE chosen");
-                                     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                                     //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
                  }
                      if(_selectReward == 5)
                  {
                                      Debug.Log("SPINE is chosen");
-                                      DiCosaSonoFatto.SetActive(true);
+                                  //    DiCosaSonoFatto.SetActive(true);
                                      //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-                                    QuizSpinaDorsale.SetActive(true);
+                                 //   QuizSpinaDorsale.SetActive(true);
                  }
                      if(_selectReward == 6)
                  {
@@ -97,9 +97,9 @@
                     if(_selectReward == 8)
                  {
                                      Debug.Log("LEG BONE is chosen");
-                                      DiCosaSonoFatto.SetActive(true);
+                                   //   DiCosaSonoFatto.SetActive(true);
                                      //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-                                    QuizOssaGambe.SetActive(true);
+                                //    QuizOssaGambe.SetActive(true);
                  }
                     if(_selectReward == 9)
                  {
@@ -177,17 +177,17 @@
             {
                 wheelParts[i].transform.localEulerAngles = new Vector3(0, 0, (i * -anglePerReward));
             }
-           // lightObjs = lightsParent.GetComponentsInChildren<DotLight>();
-         //  int lights = lightCount + 7;
-          //  anglePerLight = 360 / lights;
-        //    int objID = 0;
-         /*   for (int i = 0; i < lights; i++)
+            lightObjs = lightsParent.GetComponentsInChildren<DotLight>();
+           int lights = lightCount + 7;
+            anglePerLight = 360 / lights;
+            int objID = 0;
+            for (int i = 0; i < lights; i++)
             {
                 if (i >= 7 && i <= 13) continue;
                 lightObjs[objID].transform.localEulerAngles = new Vector3(0, 0, (i * -anglePerLight));
                 objID++;
             }
-            */
+            
             audSource = new AudioSource[5];
             for (int i = 0; i < 5; i++)
             {
@@ -266,7 +266,7 @@
         {
             PlayHitClip();
         }
-        /*
+        
         public void AnimateWheel(bool playAnim)
         {
             StopAllCoroutines();
@@ -286,7 +286,7 @@
                 StartCoroutine(LightAnimDuringSpinning(20));
             }
         }
-/*
+
         IEnumerator PlayAnimationWhenStationary(Sprite sp1, Sprite sp2)
         {
             yield return new WaitForSeconds(0.2f);
@@ -337,7 +337,7 @@
                 StartCoroutine(SymetricLightMovement(index + 1));
             }
         }
-        */
+        
         public void PlayHitClip()
         {
             for (int i = 0; i < audSource.Length; i++)
