@@ -12,6 +12,7 @@ public class RadioButtonSystems : MonoBehaviour
     public GameObject CorrettoPopUp;
     public AudioSource CorrectAudio;
     public AudioSource WrongAudio;
+    public GameObject QuesttionMark;
     
     private void Start()
     {
@@ -29,6 +30,7 @@ public class RadioButtonSystems : MonoBehaviour
            // Debug.Log("ok");
             CorrectAudio.Play();
             CorrettoPopUp.SetActive(true);
+            QuesttionMark.SetActive(false);
 
        }
 
