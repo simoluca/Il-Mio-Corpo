@@ -231,7 +231,7 @@
         void GivePrize()
         {
             
-           // AnimateWheel(true);
+            AnimateWheel(true);
             spinning = false;
                         // at this point in time the spin stops
                         //Debug.Log("object is selected");
