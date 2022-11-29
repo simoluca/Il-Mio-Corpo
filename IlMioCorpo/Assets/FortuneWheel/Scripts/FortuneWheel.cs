@@ -31,7 +31,11 @@
         Sprite[] dots = new Sprite[2];
         bool spinning;
         float anglePerReward, anglePerLight;
-        List<int> termsList = new List<int>();
+
+        // list for active (non completed) quizes.
+        // completed quizes will be removed from the list and not be considered by the wheel spin
+        
+        List<int> QuizesList = new List<int>() {1,2,3,4,5,6,7,8,9,10,11,12};
 
         public int rewardCount { get { return FortuneWheelConfig.Instance.prizes.Length; } }
         public int lightCount { get { return lightObjs.Length; } }
@@ -52,6 +56,7 @@
                 if(_selectReward == 1)
                  {
                                      Debug.Log("LARGE INTESTINE is chosen");
+                                     QuizesList.RemoveAt(1);
                                   //   DiCosaSonoFatto.SetActive(true);
                                      //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
                                   //   QuizIntestinoCrasso.SetActive(true);
@@ -59,26 +64,30 @@
                  }
                      if(_selectReward == 2)
                  {
-                                     Debug.Log("SMALL INTESTINE is chosen");
-                                    // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                    QuizesList.RemoveAt(2);
+                    Debug.Log("SMALL INTESTINE is chosen");
+                    // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
 
                  }
                      if(_selectReward == 3)
                  {
-                                     Debug.Log("3 STOMACH is chosen");
-                                     // DiCosaSonoFatto.SetActive(true);
-                                     //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);
-                                 //   QuizStomaco.SetActive(true);
+                    QuizesList.RemoveAt(3);
+                    Debug.Log("3 STOMACH is chosen");
+                    // DiCosaSonoFatto.SetActive(true);
+                    //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);
+                    //   QuizStomaco.SetActive(true);
                  }
                      if(_selectReward == 4)
                  {
-                                     Debug.Log("KIDNEYS ARE chosen");
-                                     //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                    QuizesList.RemoveAt(4);
+                    Debug.Log("KIDNEYS ARE chosen");
+                    //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
                  }
                      if(_selectReward == 5)
                  {
+                    QuizesList.RemoveAt(5);
                                      Debug.Log("SPINE is chosen");
                                   //    DiCosaSonoFatto.SetActive(true);
                                      //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -86,18 +95,21 @@
                  }
                      if(_selectReward == 6)
                  {
+                    QuizesList.RemoveAt(6);
                                      Debug.Log("RIB CAGE is chosen");
                                      //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
                  }
                      if(_selectReward == 7)
                  {
+                    QuizesList.RemoveAt(7);
                                      Debug.Log("HEART is chosen");
                                      //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
                  }
                     if(_selectReward == 8)
                  {
+                    QuizesList.RemoveAt(8);
                                      Debug.Log("LEG BONE is chosen");
                                    //   DiCosaSonoFatto.SetActive(true);
                                      //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -105,24 +117,28 @@
                  }
                     if(_selectReward == 9)
                  {
+                    QuizesList.RemoveAt(9);
                                      Debug.Log("HAND is chosen");
                                     // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
                  }
                     if(_selectReward == 10)
                  {
+                    QuizesList.RemoveAt(10);
                                      Debug.Log("LUNGS are chosen");
                                    //  SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
                  }
                     if(_selectReward == 11)
                  {
+                    QuizesList.RemoveAt(11);
                                      Debug.Log("kidneys chosen");
                                   //   SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
                  }
                     if(_selectReward == 12)
                  {
+                    QuizesList.RemoveAt(12);
                                      Debug.Log("SKULL is chosen");
                                    //  SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
@@ -201,7 +217,15 @@
           //  AnimateWheel(true);
         }
 
-        public int targetToStopOn { get { return Random.Range(0, 12); } }
+        // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+       // public int targetToStopOn { get { return Random.Range(0, 12); } }
+        public int targetToStopOn { get { return QuizesList.RandomElement(); } }
+
+
         public void StartSpin()
         {
             if (!spinning)
