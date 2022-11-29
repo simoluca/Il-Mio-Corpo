@@ -4,6 +4,7 @@
     using System.Collections;
     using UnityEngine.UI;
     using UnityEngine.SceneManagement;
+    using System.Collections.Generic;
 
 
     public class FortuneWheel : MonoBehaviour
@@ -30,6 +31,7 @@
         Sprite[] dots = new Sprite[2];
         bool spinning;
         float anglePerReward, anglePerLight;
+        List<int> termsList = new List<int>();
 
         public int rewardCount { get { return FortuneWheelConfig.Instance.prizes.Length; } }
         public int lightCount { get { return lightObjs.Length; } }
@@ -139,7 +141,7 @@
                     if (spinning)
                     {
                         selectedText.text = FortuneWheelConfig.GetValueFormated(FortuneWheelConfig.Instance.prizes[_selectReward]);
-/*
+    /*
                         if (selectedText.text == "200")
                         {
                                     Debug.Log("START");
