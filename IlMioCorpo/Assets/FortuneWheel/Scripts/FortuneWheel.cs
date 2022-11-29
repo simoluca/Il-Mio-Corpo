@@ -179,7 +179,7 @@
                 else
                 {
                     
-                    selectedText.text = "";
+                    selectedText.text = "empty";
                 }
             }
         }
@@ -242,7 +242,7 @@
                  for(int i=0;i<QuizesList.Count;i++)
             {
              //  Debug.Log(QuizesList[i]);
-                 Debug.Log(QuizesList.Count);
+               //  Debug.Log(QuizesList.Count);
 
            // Console.WriteLine(QuizesList[i]);
             }
