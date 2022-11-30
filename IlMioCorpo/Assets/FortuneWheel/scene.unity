@@ -1144,7 +1144,7 @@ GameObject:
   - component: {fileID: 114911739}
   - component: {fileID: 114911738}
   - component: {fileID: 114911737}
-  - component: {fileID: 114911736}
+  - component: {fileID: 114911741}
   m_Layer: 5
   m_Name: Image4 (bg)
   m_TagString: Untagged
@@ -1172,22 +1172,6 @@ RectTransform:
   m_AnchoredPosition: {x: 291.6305, y: 147.10762}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &114911736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 114911734}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6e09fd3141d25740bdf530e56b1f7ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 1
-  correctpopup: {fileID: 541799672}
-  CorrectAudio: {fileID: 947397380}
-  QuestionMarkButton: {fileID: 575659113}
 --- !u!61 &114911737
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1273,6 +1257,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 114911734}
   m_CullTransparentMesh: 1
+--- !u!114 &114911741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114911734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcea511ba627a7e408176fc8ef7a0fca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 1
+  correctpopup: {fileID: 541799672}
+  CorrectAudio: {fileID: 947397380}
+  QuestionMarkButton: {fileID: 575659113}
+  Finished: 0
 --- !u!1 &123920009
 GameObject:
   m_ObjectHideFlags: 0
@@ -12291,7 +12292,7 @@ GameObject:
   - component: {fileID: 823532929}
   - component: {fileID: 823532928}
   - component: {fileID: 823532927}
-  - component: {fileID: 823532926}
+  - component: {fileID: 823532931}
   m_Layer: 5
   m_Name: Image2 (bg)
   m_TagString: Untagged
@@ -12319,22 +12320,6 @@ RectTransform:
   m_AnchoredPosition: {x: 288.9425, y: -72.830765}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &823532926
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 823532924}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6e09fd3141d25740bdf530e56b1f7ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 3
-  correctpopup: {fileID: 541799672}
-  CorrectAudio: {fileID: 947397380}
-  QuestionMarkButton: {fileID: 575659113}
 --- !u!61 &823532927
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12420,6 +12405,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 823532924}
   m_CullTransparentMesh: 1
+--- !u!114 &823532931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823532924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcea511ba627a7e408176fc8ef7a0fca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 3
+  correctpopup: {fileID: 541799672}
+  CorrectAudio: {fileID: 947397380}
+  QuestionMarkButton: {fileID: 575659113}
+  Finished: 0
 --- !u!1 &823874211
 GameObject:
   m_ObjectHideFlags: 0
@@ -17405,7 +17407,7 @@ GameObject:
   - component: {fileID: 1153836580}
   - component: {fileID: 1153836579}
   - component: {fileID: 1153836578}
-  - component: {fileID: 1153836577}
+  - component: {fileID: 1153836582}
   m_Layer: 5
   m_Name: Image3 (bg)
   m_TagString: Untagged
@@ -17433,22 +17435,6 @@ RectTransform:
   m_AnchoredPosition: {x: 302.7146, y: 48.43306}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1153836577
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1153836575}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6e09fd3141d25740bdf530e56b1f7ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 2
-  correctpopup: {fileID: 541799672}
-  CorrectAudio: {fileID: 947397380}
-  QuestionMarkButton: {fileID: 575659113}
 --- !u!61 &1153836578
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17534,6 +17520,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1153836575}
   m_CullTransparentMesh: 1
+--- !u!114 &1153836582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153836575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcea511ba627a7e408176fc8ef7a0fca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 2
+  correctpopup: {fileID: 541799672}
+  CorrectAudio: {fileID: 947397380}
+  QuestionMarkButton: {fileID: 575659113}
+  Finished: 0
 --- !u!1 &1154010729
 GameObject:
   m_ObjectHideFlags: 0
@@ -32490,7 +32493,7 @@ GameObject:
   - component: {fileID: 2129862845}
   - component: {fileID: 2129862844}
   - component: {fileID: 2129862843}
-  - component: {fileID: 2129862842}
+  - component: {fileID: 2129862847}
   m_Layer: 5
   m_Name: Image1 (bg)
   m_TagString: Untagged
@@ -32518,22 +32521,6 @@ RectTransform:
   m_AnchoredPosition: {x: 291, y: -144.37924}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2129862842
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2129862840}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6e09fd3141d25740bdf530e56b1f7ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 4
-  correctpopup: {fileID: 541799672}
-  CorrectAudio: {fileID: 947397380}
-  QuestionMarkButton: {fileID: 575659113}
 --- !u!61 &2129862843
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32619,6 +32606,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2129862840}
   m_CullTransparentMesh: 1
+--- !u!114 &2129862847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129862840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcea511ba627a7e408176fc8ef7a0fca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 4
+  correctpopup: {fileID: 541799672}
+  CorrectAudio: {fileID: 947397380}
+  QuestionMarkButton: {fileID: 575659113}
+  Finished: 0
 --- !u!1001 &2130748785
 PrefabInstance:
   m_ObjectHideFlags: 0

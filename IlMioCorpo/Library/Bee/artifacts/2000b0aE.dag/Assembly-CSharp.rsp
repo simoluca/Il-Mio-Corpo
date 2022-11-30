@@ -357,6 +357,7 @@
 "Assets/Scripts/SceneChangeCHIUDI.cs"
 "Assets/Scripts/SlotScript.cs"
 "Assets/Scripts/SlotScriptLargeIntestine.cs"
+"Assets/Scripts/SlotScriptSpinaDorsale.cs"
 "Assets/Scripts/WheelEnable.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
