@@ -63,6 +63,8 @@
                 if(_selectReward == 1)
                  {
                                      Debug.Log("LARGE INTESTINE is chosen");
+                                     DiCosaSonoFatto.SetActive(true);
+                                     QuizIntestinoCrasso.SetActive(true);
                                      //Debug.Log(QuizesList[0]);
                                      QuizesList.RemoveAt(0);
                                   //   DiCosaSonoFatto.SetActive(true);
@@ -81,6 +83,9 @@
                  }
                      if(_selectReward == 3)
                  {
+                    DiCosaSonoFatto.SetActive(true);
+                    QuizStomaco.SetActive(true);
+
                   QuizesList.RemoveAt(2);
                   //Debug.Log(QuizesList[2]);
                     Debug.Log("STOMACH is chosen");
@@ -90,17 +95,23 @@
                  }
                      if(_selectReward == 4)
                  {
+                    DiCosaSonoFatto.SetActive(true);
+                    QuizVescica.SetActive(true);
                     QuizesList.RemoveAt(3);
                   //Debug.Log(QuizesList[3]);
-                    Debug.Log("KIDNEYS ARE chosen");
+                    Debug.Log("BLADDER is chosen");
                     //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
                  }
                      if(_selectReward == 5)
                  {
+                    DiCosaSonoFatto.SetActive(true);
+
+
                    QuizesList.RemoveAt(4);
                   // Debug.Log(QuizesList[4]);
                                      Debug.Log("SPINE is chosen");
+                                     QuizSpinaDorsale.SetActive(true);
                                   //    DiCosaSonoFatto.SetActive(true);
                                      //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
                                  //   QuizSpinaDorsale.SetActive(true);
