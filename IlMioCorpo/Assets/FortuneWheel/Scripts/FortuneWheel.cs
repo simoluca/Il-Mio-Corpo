@@ -5,12 +5,13 @@
     using UnityEngine.UI;
     using UnityEngine.SceneManagement;
     using System.Collections.Generic;
+  
 
      
         
     public class FortuneWheel : MonoBehaviour
     {
-
+        public SlotScriptSpinaDorsale SpinaDorsale;
        
 
         
@@ -108,10 +109,19 @@
                     DiCosaSonoFatto.SetActive(true);
 
 
-                   QuizesList.RemoveAt(4);
+                   
                   // Debug.Log(QuizesList[4]);
                                      Debug.Log("SPINE is chosen");
                                      QuizSpinaDorsale.SetActive(true);
+                                     /*
+                                     if(SpinaDorsale.Finished == true)
+                                     {
+                                        Debug.Log("spina dorsale completato");
+                                        QuizesList.RemoveAt(4);
+                                        DiCosaSonoFatto.SetActive(false);
+
+                                     }
+                                     */
                                   //    DiCosaSonoFatto.SetActive(true);
                                      //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
                                  //   QuizSpinaDorsale.SetActive(true);
@@ -180,7 +190,7 @@
                     if (spinning)
                     {
                         selectedText.text = FortuneWheelConfig.GetValueFormated(FortuneWheelConfig.Instance.prizes[_selectReward]);
-    /*
+                        /*
                         if (selectedText.text == "200")
                         {
                                     Debug.Log("START");
