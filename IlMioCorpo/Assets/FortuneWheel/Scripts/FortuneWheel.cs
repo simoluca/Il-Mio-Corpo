@@ -12,8 +12,7 @@
     public class FortuneWheel : MonoBehaviour
     {
         public SlotScriptSpinaDorsale SpinaDorsale;
-       
-
+  
         
         [Header("UI Properties")]
 
@@ -64,8 +63,10 @@
                 if(_selectReward == 1)
                  {
                                      Debug.Log("LARGE INTESTINE is chosen");
+                                     /*
                                      DiCosaSonoFatto.SetActive(true);
                                      QuizIntestinoCrasso.SetActive(true);
+                                     */
                                      //Debug.Log(QuizesList[0]);
                                      QuizesList.RemoveAt(0);
                                   //   DiCosaSonoFatto.SetActive(true);
@@ -84,8 +85,10 @@
                  }
                      if(_selectReward == 3)
                  {
+                    /*
                     DiCosaSonoFatto.SetActive(true);
                     QuizStomaco.SetActive(true);
+                    */
 
                   QuizesList.RemoveAt(2);
                   //Debug.Log(QuizesList[2]);
@@ -96,8 +99,10 @@
                  }
                      if(_selectReward == 4)
                  {
+                    /*
                     DiCosaSonoFatto.SetActive(true);
                     QuizVescica.SetActive(true);
+                    */
                     QuizesList.RemoveAt(3);
                   //Debug.Log(QuizesList[3]);
                     Debug.Log("BLADDER is chosen");
@@ -113,15 +118,16 @@
                   // Debug.Log(QuizesList[4]);
                                      Debug.Log("SPINE is chosen");
                                      QuizSpinaDorsale.SetActive(true);
-                                     /*
-                                     if(SpinaDorsale.Finished == true)
+                                     
+                                     if(SpinaDorsale.Finished == true) 
                                      {
                                         Debug.Log("spina dorsale completato");
                                         QuizesList.RemoveAt(4);
+                                        QuizSpinaDorsale.SetActive(false);
                                         DiCosaSonoFatto.SetActive(false);
 
                                      }
-                                     */
+                                     
                                   //    DiCosaSonoFatto.SetActive(true);
                                      //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
                                  //   QuizSpinaDorsale.SetActive(true);

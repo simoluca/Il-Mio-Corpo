@@ -1277,6 +1277,8 @@ MonoBehaviour:
   correctpopup: {fileID: 541799672}
   CorrectAudio: {fileID: 947397380}
   QuestionMarkButton: {fileID: 575659113}
+  Quiz: {fileID: 285933171}
+  DiCosaSonoFatto: {fileID: 151131028}
   Finished: 0
 --- !u!1 &123920009
 GameObject:
@@ -1667,13 +1669,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 151131029}
+  - component: {fileID: 151131030}
   m_Layer: 0
   m_Name: DiCosaSonoFatto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &151131029
 Transform:
   m_ObjectHideFlags: 0
@@ -1700,6 +1703,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &151131030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151131028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcea511ba627a7e408176fc8ef7a0fca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  correctpopup: {fileID: 0}
+  CorrectAudio: {fileID: 0}
+  QuestionMarkButton: {fileID: 0}
+  Quiz: {fileID: 285933171}
+  DiCosaSonoFatto: {fileID: 285933171}
+  Finished: 0
 --- !u!1 &152110482
 GameObject:
   m_ObjectHideFlags: 0
@@ -3023,13 +3045,14 @@ GameObject:
   - component: {fileID: 285933176}
   - component: {fileID: 285933175}
   - component: {fileID: 285933174}
+  - component: {fileID: 285933180}
   m_Layer: 5
   m_Name: QuizSpinaDorsale
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &285933172
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3177,6 +3200,25 @@ MonoBehaviour:
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
   m_PresetInfoIsWorld: 0
+--- !u!114 &285933180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 285933171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcea511ba627a7e408176fc8ef7a0fca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  correctpopup: {fileID: 0}
+  CorrectAudio: {fileID: 0}
+  QuestionMarkButton: {fileID: 0}
+  Quiz: {fileID: 285933171}
+  DiCosaSonoFatto: {fileID: 151131028}
+  Finished: 0
 --- !u!1 &288354391
 GameObject:
   m_ObjectHideFlags: 0
@@ -12429,6 +12471,8 @@ MonoBehaviour:
   correctpopup: {fileID: 541799672}
   CorrectAudio: {fileID: 947397380}
   QuestionMarkButton: {fileID: 575659113}
+  Quiz: {fileID: 285933171}
+  DiCosaSonoFatto: {fileID: 151131028}
   Finished: 0
 --- !u!1 &823874211
 GameObject:
@@ -17544,6 +17588,8 @@ MonoBehaviour:
   correctpopup: {fileID: 541799672}
   CorrectAudio: {fileID: 947397380}
   QuestionMarkButton: {fileID: 575659113}
+  Quiz: {fileID: 285933171}
+  DiCosaSonoFatto: {fileID: 151131028}
   Finished: 0
 --- !u!1 &1154010729
 GameObject:
@@ -31518,7 +31564,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 895a9c491ff9e55489c8c791bce840d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpinaDorsale: {fileID: 0}
+  SpinaDorsale: {fileID: 285933180}
   spinButton: {fileID: 1035857286}
   coinsText: {fileID: 359026192}
   selectedText: {fileID: 1351284704}
@@ -32639,6 +32685,8 @@ MonoBehaviour:
   correctpopup: {fileID: 541799672}
   CorrectAudio: {fileID: 947397380}
   QuestionMarkButton: {fileID: 575659113}
+  Quiz: {fileID: 285933171}
+  DiCosaSonoFatto: {fileID: 151131028}
   Finished: 0
 --- !u!1001 &2130748785
 PrefabInstance:
