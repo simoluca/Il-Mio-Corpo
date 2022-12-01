@@ -240,6 +240,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 212887378680554940, guid: e95f8a617163480449f527b1e40efc14, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6240502973392622382, guid: e95f8a617163480449f527b1e40efc14, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.6
@@ -5562,6 +5566,10 @@ PrefabInstance:
     - target: {fileID: 4029165064636982, guid: 9fd338b153e09604d983b3b476baac7a, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198592458076527232, guid: 9fd338b153e09604d983b3b476baac7a, type: 3}
+      propertyPath: playOnAwake
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9fd338b153e09604d983b3b476baac7a, type: 3}
@@ -24960,6 +24968,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WheelPart (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1769224063895444, guid: e95f8a617163480449f527b1e40efc14, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4070488985344100, guid: e95f8a617163480449f527b1e40efc14, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -28559,6 +28571,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WheelPart
       objectReference: {fileID: 0}
+    - target: {fileID: 1769224063895444, guid: e95f8a617163480449f527b1e40efc14, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4070488985344100, guid: e95f8a617163480449f527b1e40efc14, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -31502,6 +31518,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 895a9c491ff9e55489c8c791bce840d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SpinaDorsale: {fileID: 0}
   spinButton: {fileID: 1035857286}
   coinsText: {fileID: 359026192}
   selectedText: {fileID: 1351284704}
