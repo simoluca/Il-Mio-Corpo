@@ -2839,6 +2839,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ce1318136bca344191d4d077e6dbcf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Quiz: {fileID: 258455233}
+  QuizParent: {fileID: 151131028}
 --- !u!114 &258455236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3052,7 +3054,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &285933172
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3108,6 +3110,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ce1318136bca344191d4d077e6dbcf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Quiz: {fileID: 285933171}
+  QuizParent: {fileID: 151131028}
 --- !u!114 &285933175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6041,6 +6045,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ce1318136bca344191d4d077e6dbcf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Quiz: {fileID: 404382731}
+  QuizParent: {fileID: 151131028}
 --- !u!114 &404382736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9450,6 +9456,18 @@ MonoBehaviour:
           m_StringArgument: play
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 599337324}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &599337327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12546,6 +12564,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ce1318136bca344191d4d077e6dbcf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Quiz: {fileID: 0}
+  QuizParent: {fileID: 0}
 --- !u!114 &823874215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16095,6 +16115,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ce1318136bca344191d4d077e6dbcf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Quiz: {fileID: 0}
+  QuizParent: {fileID: 0}
 --- !u!114 &1016231999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22996,7 +23018,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1507062863
 RectTransform:
   m_ObjectHideFlags: 0
@@ -23067,6 +23089,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ce1318136bca344191d4d077e6dbcf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Quiz: {fileID: 1507062862}
+  QuizParent: {fileID: 151131028}
 --- !u!114 &1507062867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23295,6 +23319,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ce1318136bca344191d4d077e6dbcf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Quiz: {fileID: 0}
+  QuizParent: {fileID: 0}
 --- !u!114 &1517664481
 MonoBehaviour:
   m_ObjectHideFlags: 0
