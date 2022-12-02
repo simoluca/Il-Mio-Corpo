@@ -9456,18 +9456,6 @@ MonoBehaviour:
           m_StringArgument: play
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 599337324}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
 --- !u!114 &599337327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19275,6 +19263,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1658142868}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Pause
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1270407554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26283,7 +26283,7 @@ GameObject:
   - component: {fileID: 1658142866}
   - component: {fileID: 1658142868}
   m_Layer: 0
-  m_Name: FortuneWheelConfigs
+  m_Name: WheelConfigs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
