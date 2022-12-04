@@ -25,7 +25,7 @@ public class RadioButtonSystems : MonoBehaviour
        // Debug.Log(toggle.name + " _ " + toggle.GetComponentInChildren<Text>().text);
       // Debug.Log(toggle.name);
 
-       if(toggle.name == "Muscolo" || toggle.name == "Urina")
+       if(toggle.name == "Muscolo" || toggle.name == "Urina" || toggle.name == "Villi")
        {
            // Debug.Log("ok");
             CorrectAudio.Play();
@@ -34,7 +34,7 @@ public class RadioButtonSystems : MonoBehaviour
 
        }
 
-       if(toggle.name == "Grasso" || toggle.name == "Gomma" || toggle.name == "Acqua" || toggle.name == "Bile")
+       if(toggle.name == "Grasso" || toggle.name == "Gomma" || toggle.name == "Acqua" || toggle.name == "Bile" || toggle.name == "Tentacoli" || toggle.name == "Coni")
        {
             WrongAudio.Play();
             RetryText.SetActive(true);
