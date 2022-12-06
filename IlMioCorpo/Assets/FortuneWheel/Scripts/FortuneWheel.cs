@@ -41,7 +41,7 @@
         // completed quizes will be removed from the list and not be considered by the wheel spin
         
        //List<int> QuizesList = new List<int>() {1,2,3,4,5,6,7,8,9,10,11,12};
-       List<string> QuizesList = new List<string>() {"LargeIntestine", "SmallIntestine", "Stomach", "Bladder", "RibCage"};
+       List<string> QuizesList = new List<string>() {"LargeIntestine", "SmallIntestine", "Stomach", "Bladder", "RibCage", "Heart"};
 
         //indexOf
         
@@ -57,6 +57,7 @@
                 coinsText.text = FortuneWheelConfig.GetValueFormated(_coins);
             }
         }
+        
         public int SelectedReward
         {
             
@@ -108,13 +109,13 @@
                         {
                             if(QuizesList[i].Equals("Stomach"))
                             {
+                                Debug.Log("STOMACH is chosen");
                                 QuizesList.RemoveAt(i);
                             }
                         }
 
                  // QuizesList.RemoveAt(2);
                   //Debug.Log(QuizesList[2]);
-                    Debug.Log("STOMACH is chosen");
                     // DiCosaSonoFatto.SetActive(true);
                     //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);
                     //   QuizStomaco.SetActive(true);
@@ -170,17 +171,33 @@
                                      //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
                                  //   QuizSpinaDorsale.SetActive(true);
                  }
-                     if(_selectReward == 6)
+                     if(QuizesList.Contains("RibCage"))
                  {
-                   QuizesList.RemoveAt(5);
-                                     Debug.Log("RIB CAGE is chosen");
+                      for(int i = 0; i < QuizesList.Count; i++)
+                        {
+                            if(QuizesList[i].Equals("RibCage"))
+                            {
+                                Debug.Log("RibCage is chosen");
+                                QuizesList.RemoveAt(i);
+                            }
+                        }
+                 //  QuizesList.RemoveAt(5);
+                                  //   Debug.Log("RIB CAGE is chosen");
                                      //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
                  }
-                     if(_selectReward == 7)
+                     if(QuizesList.Contains("Heart"))
                  {
-                  QuizesList.RemoveAt(6);
-                                     Debug.Log("HEART is chosen");
+                        for(int i = 0; i < QuizesList.Count; i++)
+                        {
+                            if(QuizesList[i].Equals("Heart"))
+                            {
+                                Debug.Log("Heart is chosen");
+                                QuizesList.RemoveAt(i);
+                            }
+                        }
+                //  QuizesList.RemoveAt(6);
+                             //        Debug.Log("HEART is chosen");
                                      //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
                  }
