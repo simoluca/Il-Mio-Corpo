@@ -5,7 +5,7 @@
     using UnityEngine.UI;
     using UnityEngine.SceneManagement;
     using System.Collections.Generic;
-  
+    //using Random = System.Random;  
 
      
         
@@ -25,8 +25,8 @@
         public Transform wheelToRotate;
         public Transform wheelPartsParent, lightsParent;
         public GameObject DiCosaSonoFatto, QuizOcchi, QuizIntestinoCrasso, QuizOssaGambe, QuizOssaPiedi, QuizSpinaDorsale, QuizStomaco, QuizVescica;
-
         public GameObject winParticles;
+        //Random random = new Random();
 
         int _selectReward, _coins, cost = 300;
         int count = 0;
@@ -40,7 +40,9 @@
         // list for active (non completed) quizes.
         // completed quizes will be removed from the list and not be considered by the wheel spin
         
-       List<int> QuizesList = new List<int>() {1,2,3,4,5,6,7,8,9,10,11,12};
+       //List<int> QuizesList = new List<int>() {1,2,3,4,5,6,7,8,9,10,11,12};
+       List<string> QuizesList = new List<string>() {"LargeIntestine", "SmallIntestine", "Stomach", "Bladder", "RibCage"};
+
         //indexOf
         
 
@@ -60,7 +62,7 @@
             
             get
             {
-                if(_selectReward == 1)
+                if(QuizesList.Contains("LargeIntestine"))
                  {
                                      Debug.Log("LARGE INTESTINE is chosen");
                                      /*
@@ -68,54 +70,89 @@
                                      QuizIntestinoCrasso.SetActive(true);
                                      */
                                      //Debug.Log(QuizesList[0]);
-                                     QuizesList.RemoveAt(0);
+                                     for(int i = 0; i < QuizesList.Count; i++)
+                                     {
+                                        if(QuizesList[i].Equals("LargeIntestine"))
+                                        {
+                                            QuizesList.RemoveAt(i);
+                                        }
+                                     }
                                   //   DiCosaSonoFatto.SetActive(true);
                                      //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
                                   //   QuizIntestinoCrasso.SetActive(true);
 
                  }
-                     if(_selectReward == 2)
+                     if(QuizesList.Contains("SmallIntestine"))
                  {
-                    QuizesList.RemoveAt(1);
+                  //  QuizesList.RemoveAt(1);
                     //Debug.Log(QuizesList[1]);
                     Debug.Log("SMALL INTESTINE is chosen");
+                     for(int i = 0; i < QuizesList.Count; i++)
+                                     {
+                                        if(QuizesList[i].Equals("SmallIntestine"))
+                                        {
+                                            QuizesList.RemoveAt(i);
+                                        }
+                                     }
                     // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
 
                  }
-                     if(_selectReward == 3)
+                     if(QuizesList.Contains("Stomach"))
                  {
                     /*
                     DiCosaSonoFatto.SetActive(true);
                     QuizStomaco.SetActive(true);
                     */
+                    for(int i = 0; i < QuizesList.Count; i++)
+                        {
+                            if(QuizesList[i].Equals("Stomach"))
+                            {
+                                QuizesList.RemoveAt(i);
+                            }
+                        }
 
-                  QuizesList.RemoveAt(2);
+                 // QuizesList.RemoveAt(2);
                   //Debug.Log(QuizesList[2]);
                     Debug.Log("STOMACH is chosen");
                     // DiCosaSonoFatto.SetActive(true);
                     //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);
                     //   QuizStomaco.SetActive(true);
                  }
-                     if(_selectReward == 4)
+                     if(QuizesList.Contains("Bladder"))
                  {
                     /*
                     DiCosaSonoFatto.SetActive(true);
                     QuizVescica.SetActive(true);
                     */
-                    QuizesList.RemoveAt(3);
+                    //QuizesList.RemoveAt(3);
+                      for(int i = 0; i < QuizesList.Count; i++)
+                        {
+                            if(QuizesList[i].Equals("Bladder"))
+                            {
+                                Debug.Log("BLADDER is chosen");
+                                QuizesList.RemoveAt(i);
+                            }
+                        }
                   //Debug.Log(QuizesList[3]);
-                    Debug.Log("BLADDER is chosen");
                     //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
                  }
-                     if(_selectReward == 5)
+                     if(QuizesList.Contains("Spine"))
                  {
-                    DiCosaSonoFatto.SetActive(true);
-
+                   // DiCosaSonoFatto.SetActive(true);
+                    for(int i = 0; i < QuizesList.Count; i++)
+                        {
+                            if(QuizesList[i].Equals("Spine"))
+                            {
+                                Debug.Log("spine is chosen");
+                                QuizesList.RemoveAt(i);
+                            }
+                        }
 
                    
                   // Debug.Log(QuizesList[4]);
+                  /*
                                      Debug.Log("SPINE is chosen");
                                      QuizSpinaDorsale.SetActive(true);
                                      
@@ -127,6 +164,7 @@
                                         DiCosaSonoFatto.SetActive(false);
 
                                      }
+                                     */
                                      
                                   //    DiCosaSonoFatto.SetActive(true);
                                      //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -275,7 +313,8 @@
             }
                 
                 // something else needed other than range?
-                 return Random.Range(0, QuizesList.Count);
+                return Random.Range(0, QuizesList.Count);
+                 //return Random.Range(0, QuizesList.Length);
              } 
         }
 
