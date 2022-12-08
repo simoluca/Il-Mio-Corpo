@@ -63,6 +63,7 @@
             
             get
             {
+                
                 if(_selectReward == 1)
                   {
                                         
@@ -71,6 +72,7 @@
                                         QuizIntestinoCrasso.SetActive(true);
                                         */
                                         //Debug.Log(QuizesList[0]);
+                                        /*
                                         for(int i = 0; i < QuizesListNames.Count; i++)
                                         {
                                             if(QuizesListNames[i].Equals("LargeIntestine"))
@@ -83,6 +85,10 @@
 
                                             }
                                         }
+                                        */
+
+                //    QuizesList.Remove(1);
+
                                     //   DiCosaSonoFatto.SetActive(true);
                                         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
                                     //   QuizIntestinoCrasso.SetActive(true);
@@ -96,6 +102,7 @@
                     
                   //  QuizesList.RemoveAt(1);
                     //Debug.Log(QuizesList[1]);
+                    /*
                      for(int i = 0; i < QuizesListNames.Count; i++)
                                      {
                                         if(QuizesListNames[i].Equals("SmallIntestine"))
@@ -106,6 +113,9 @@
 
                                         }
                                      }
+                                     */
+                 //   QuizesList.Remove(2);
+
                     // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
 
@@ -118,6 +128,7 @@
                     DiCosaSonoFatto.SetActive(true);
                     QuizStomaco.SetActive(true);
                     */
+                    /*
                     for(int i = 0; i < QuizesListNames.Count; i++)
                         {
                             if(QuizesListNames[i].Equals("Stomach"))
@@ -128,6 +139,9 @@
 
                             }
                         }
+                        */
+                     //       QuizesList.Remove(3);
+
 
                  // QuizesList.RemoveAt(2);
                   //Debug.Log(QuizesList[2]);
@@ -144,6 +158,7 @@
                     QuizVescica.SetActive(true);
                     */
                     //QuizesList.RemoveAt(3);
+                    /*
                       for(int i = 0; i < QuizesListNames.Count; i++)
                         {
                             if(QuizesListNames[i].Equals("Bladder"))
@@ -154,6 +169,8 @@
 
                             }
                         }
+                        */
+                   //     QuizesList.Remove(4);
                   //Debug.Log(QuizesList[3]);
                     //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
@@ -163,6 +180,7 @@
                   {
                     
                    // DiCosaSonoFatto.SetActive(true);
+                   /*
                     for(int i = 0; i < QuizesListNames.Count; i++)
                         {
                             if(QuizesListNames[i].Equals("Spine"))
@@ -173,8 +191,9 @@
 
                             }
                         }
+                        */
 
-                   
+                 //  QuizesList.Remove(5);
                   // Debug.Log(QuizesList[4]);
                   /*
                                      Debug.Log("SPINE is chosen");
@@ -197,7 +216,7 @@
                   }
                    if(_selectReward == 6)
                   {
-                    
+                    /*
                       for(int i = 0; i < QuizesListNames.Count; i++)
                         {
                             if(QuizesListNames[i].Equals("RibCage"))
@@ -207,6 +226,8 @@
                                  QuizesList.RemoveAt(i);
                             }
                         }
+                        */
+                    //    QuizesList.Remove(6);
                  //  QuizesList.RemoveAt(5);
                                   //   Debug.Log("RIB CAGE is chosen");
                                      //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -215,7 +236,7 @@
                   }
                    if(_selectReward == 7)
                   {
-                    
+                    /*
                         for(int i = 0; i < QuizesListNames.Count; i++)
                         {
                             if(QuizesListNames[i].Equals("Heart"))
@@ -225,6 +246,8 @@
                                  QuizesList.RemoveAt(i);
                             }
                         }
+                        */
+                  //      QuizesList.Remove(7);
                 //  QuizesList.RemoveAt(6);
                              //        Debug.Log("HEART is chosen");
                                      //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -233,6 +256,7 @@
                   }
                     if(_selectReward == 8)
                  {
+                    /*
                     for(int i = 0; i < QuizesListNames.Count; i++)
                         {
                             if(QuizesListNames[i].Equals("Legbone"))
@@ -242,6 +266,8 @@
                                  QuizesList.RemoveAt(i);
                             }
                         }
+                        */
+                  //      QuizesList.Remove(8);
 
                   //QuizesList.RemoveAt(7);
                     //                 Debug.Log("LEG BONE is chosen");
@@ -253,13 +279,15 @@
                  {
                 // QuizesList.RemoveAt(8);
                   //                   Debug.Log("HAND is chosen");
-                  Debug.Log("no quiz yet");
+              //    QuizesList.Remove(9);
+                  //Debug.Log("no quiz yet");
                                     // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
                  }
                     if(_selectReward == 10)
                  {
-                                      Debug.Log("no quiz yet");
+               //     QuizesList.Remove(10);
+                            //          Debug.Log("no quiz yet");
 
                  // QuizesList.RemoveAt(9);
                    //                  Debug.Log("LUNGS are chosen");
@@ -268,7 +296,8 @@
                  }
                     if(_selectReward == 11)
                  {
-                                      Debug.Log("no quiz yet");
+              //      QuizesList.Remove(11);
+                                      //Debug.Log("no quiz yet");
 
                  //QuizesList.RemoveAt(10);
                    //                  Debug.Log("kidneys chosen");
@@ -277,7 +306,8 @@
                  }
                     if(_selectReward == 12)
                  {
-                                      Debug.Log("no quiz yet");
+              //      QuizesList.Remove(12);
+                                      //Debug.Log("no quiz yet");
 
                 // QuizesList.RemoveAt(11);
                   //                   Debug.Log("SKULL is chosen");
@@ -368,20 +398,24 @@
         {
            
             get {
-            /*     for(int i=0;i<QuizesList.Count;i++)
-            {
-             //  Debug.Log(QuizesList[i]);
-                 Debug.Log(QuizesList.Count);
+                
+                int QuizToRemove = Random.Range(0, QuizesList.Count);
+                QuizesList.Remove(QuizToRemove);
+                Debug.Log(QuizToRemove);
+                return QuizToRemove;
+            
+              //   Debug.Log(QuizesList[i]);
 
            // Console.WriteLine(QuizesList[i]);
-            }
-            */
-             Debug.Log(QuizesList.Count);
+            
+            
+          //   Debug.Log(QuizesList.Count);
 
                 
                 // something else needed other than range?
-                return Random.Range(0, QuizesList.Count);
-                 //return Random.Range(0, QuizesList.Length);
+                //return Random.Range(0, QuizesList.Range);
+              //  return Random.Range(0, QuizesList.Count);
+                // return Random.Range(0, QuizesList.Count);
              } 
         }
 
