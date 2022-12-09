@@ -400,8 +400,9 @@
             get {
                 
                 int QuizToRemove = Random.Range(0, QuizesList.Count);
-                QuizesList.Remove(QuizToRemove);
-                Debug.Log(QuizToRemove);
+                QuizesList.RemoveAt(QuizToRemove);
+                Debug.Log(QuizesList.Count);
+                //Debug.Log(QuizToRemove);
                 return QuizToRemove;
             
               //   Debug.Log(QuizesList[i]);
@@ -409,7 +410,7 @@
            // Console.WriteLine(QuizesList[i]);
             
             
-          //   Debug.Log(QuizesList.Count);
+             //Debug.Log(QuizesList.Count);
 
                 
                 // something else needed other than range?
