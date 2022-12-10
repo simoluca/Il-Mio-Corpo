@@ -40,8 +40,8 @@
         // list for active (non completed) quizes.
         // completed quizes will be removed from the list and not be considered by the wheel spin
         
-       List<int> QuizesList = new List<int>() {1,2,3,4,5,6,7,8,9,10,11,12};
-       List<string> QuizesListNames = new List<string>() {"LargeIntestine", "SmallIntestine", "Stomach", "Bladder", "RibCage", "Heart", "Legbone"};
+       List<int> QuizesList = new List<int>() {1,2,3,4,5,6,7,8,9,10};
+       //List<string> QuizesListNames = new List<string>() {"LargeIntestine", "SmallIntestine", "Stomach", "Bladder", "RibCage", "Heart", "Legbone"};
 
         //indexOf
         
