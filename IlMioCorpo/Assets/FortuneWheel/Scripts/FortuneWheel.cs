@@ -399,11 +399,27 @@
            
             get {
                 
-                int QuizToRemove = Random.Range(0, QuizesList.Count);
+                // random element from 0 to 11
+               int QuizToRemove = Random.Range(0, QuizesList.Count);
+
+/*
+                for(int i = 0; i < QuizesList.Count; i++)
+                {
+                    Debug.Log(QuizesList[i]);
+                }
+                */
+
+                // print actual quiz number
+                Debug.Log(QuizesList[QuizToRemove]);
+
+                // give index value to new int because it will be deleted before return
+                int NumPassed = QuizesList[QuizToRemove];
+
+                //remove at index
                 QuizesList.RemoveAt(QuizToRemove);
-                Debug.Log(QuizesList.Count);
-                //Debug.Log(QuizToRemove);
-                return QuizToRemove;
+
+               // Debug.Log(QuizesList.Count);
+                return NumPassed;
             
               //   Debug.Log(QuizesList[i]);
 
@@ -420,7 +436,7 @@
              } 
         }
 
-
+        
         public void StartSpin()
         {
             if (!spinning)
