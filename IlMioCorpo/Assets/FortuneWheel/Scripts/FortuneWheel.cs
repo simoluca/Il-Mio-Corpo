@@ -11,7 +11,7 @@
         
     public class FortuneWheel : MonoBehaviour
     {
-        public SlotScriptSpinaDorsale SpinaDorsale;
+        public SlotScriptLargeIntestine correctpopupLargeIntestine;
   
         
         [Header("UI Properties")]
@@ -63,14 +63,20 @@
             
             get
             {
+
+                Debug.Log(_selectReward);
                 
                 if(_selectReward == 1)
                   {
                                         
-                                        /*
+                                        
                                         DiCosaSonoFatto.SetActive(true);
                                         QuizIntestinoCrasso.SetActive(true);
-                                        */
+                                        
+                                        if(correctpopupLargeIntestine)
+                                        {
+                                            Debug.Log("LARGE INTESTINE is chosen");
+                                        }
                                         //Debug.Log(QuizesList[0]);
                                         /*
                                         for(int i = 0; i < QuizesListNames.Count; i++)
@@ -388,11 +394,6 @@
           //  AnimateWheel(true);
         }
 
-        // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-        // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-        // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-        // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
        // public int targetToStopOn { get { return Random.Range(0, 12); } }
         public int targetToStopOn 
         {
@@ -402,15 +403,10 @@
                 // random element from 0 to 11
                int QuizToRemove = Random.Range(0, QuizesList.Count);
 
-/*
-                for(int i = 0; i < QuizesList.Count; i++)
-                {
-                    Debug.Log(QuizesList[i]);
-                }
-                */
+               _selectReward = QuizesList[QuizToRemove];
 
                 // print actual quiz number
-                Debug.Log(QuizesList[QuizToRemove]);
+                //Debug.Log(QuizesList[QuizToRemove]);
 
                 // give index value to new int because it will be deleted before return
                 int NumPassed = QuizesList[QuizToRemove];
@@ -421,18 +417,6 @@
                // Debug.Log(QuizesList.Count);
                 return NumPassed;
             
-              //   Debug.Log(QuizesList[i]);
-
-           // Console.WriteLine(QuizesList[i]);
-            
-            
-             //Debug.Log(QuizesList.Count);
-
-                
-                // something else needed other than range?
-                //return Random.Range(0, QuizesList.Range);
-              //  return Random.Range(0, QuizesList.Count);
-                // return Random.Range(0, QuizesList.Count);
              } 
         }
 
