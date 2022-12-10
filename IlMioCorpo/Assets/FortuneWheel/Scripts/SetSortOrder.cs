@@ -7,7 +7,7 @@
         public int layerID = 8;
         void Start()
         {
-            GetComponent<Renderer>().sortingOrder = layerID;
+         //   GetComponent<Renderer>().sortingOrder = layerID;
         }
     }
 }
