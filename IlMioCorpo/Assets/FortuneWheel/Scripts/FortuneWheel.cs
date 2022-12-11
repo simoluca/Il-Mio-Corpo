@@ -28,7 +28,7 @@
         public GameObject winParticles;
         //Random random = new Random();
 
-        int _selectReward, _coins, cost = 300;
+        int _selectReward, _coins, cost = 0;
         int count = 0;
         AudioSource[] audSource;
         WheelPart[] wheelParts;
@@ -69,7 +69,7 @@
                 
                 if(_selectReward == 1)
                   {
-                                            QuizesList.RemoveAt(QuizToRemove);
+                                          //  QuizesList.RemoveAt(QuizToRemove);
             
                                         /*
                                         DiCosaSonoFatto.SetActive(true);
@@ -108,7 +108,7 @@
                   }
                      if(_selectReward == 2)
                   {
-                                                                QuizesList.RemoveAt(QuizToRemove);
+                                                               QuizesList.RemoveAt(QuizToRemove);
 
                     
                   //  QuizesList.RemoveAt(1);
@@ -134,7 +134,7 @@
                       
                   if(_selectReward == 3)
                   {
-                                                                QuizesList.RemoveAt(QuizToRemove);
+                                                          QuizesList.RemoveAt(QuizToRemove);
 
                     /*
                     DiCosaSonoFatto.SetActive(true);
@@ -164,7 +164,7 @@
                   }
                   if(_selectReward == 4)
                   {
-                                                                QuizesList.RemoveAt(QuizToRemove);
+                                                              QuizesList.RemoveAt(QuizToRemove);
 
                     /*
                     DiCosaSonoFatto.SetActive(true);
@@ -191,7 +191,7 @@
                   }
                   if(_selectReward == 5)
                   {
-                                                                QuizesList.RemoveAt(QuizToRemove);
+                                                           QuizesList.RemoveAt(QuizToRemove);
 
                    // DiCosaSonoFatto.SetActive(true);
                    /*
@@ -230,7 +230,7 @@
                   }
                    if(_selectReward == 6)
                   {
-                                                                QuizesList.RemoveAt(QuizToRemove);
+                                                       QuizesList.RemoveAt(QuizToRemove);
 
                     /*
                       for(int i = 0; i < QuizesListNames.Count; i++)
@@ -252,7 +252,7 @@
                   }
                    if(_selectReward == 7)
                   {
-                                                                QuizesList.RemoveAt(QuizToRemove);
+                                                     QuizesList.RemoveAt(QuizToRemove);
 
                     /*
                         for(int i = 0; i < QuizesListNames.Count; i++)
@@ -274,8 +274,8 @@
                   }
                     if(_selectReward == 8)
                  {
-                                                                QuizesList.RemoveAt(QuizToRemove);
-
+                                                          QuizesList.RemoveAt(QuizToRemove);
+   
                     /*
                     for(int i = 0; i < QuizesListNames.Count; i++)
                         {
@@ -297,7 +297,7 @@
                  }
                     if(_selectReward == 9)
                  {
-                                                                QuizesList.RemoveAt(QuizToRemove);
+                                                             QuizesList.RemoveAt(QuizToRemove);  
 
                 // QuizesList.RemoveAt(8);
                   //                   Debug.Log("HAND is chosen");
@@ -308,7 +308,7 @@
                  }
                     if(_selectReward == 10)
                  {
-                                                                QuizesList.RemoveAt(QuizToRemove);
+                                                               QuizesList.RemoveAt(QuizToRemove);
 
                //     QuizesList.Remove(10);
                             //          Debug.Log("no quiz yet");
@@ -320,7 +320,7 @@
                  }
                     if(_selectReward == 11)
                  {
-                                                                QuizesList.RemoveAt(QuizToRemove);
+                                                               QuizesList.RemoveAt(QuizToRemove);
 
               //      QuizesList.Remove(11);
                                       //Debug.Log("no quiz yet");
