@@ -69,7 +69,7 @@
                 if(_selectReward == 1)
                   {
                                         
-                                        
+                                        /*
                                         DiCosaSonoFatto.SetActive(true);
                                         QuizIntestinoCrasso.SetActive(true);
                                         
@@ -77,6 +77,7 @@
                                         {
                                             Debug.Log("LARGE INTESTINE is chosen");
                                         }
+                                        */
                                         //Debug.Log(QuizesList[0]);
                                         /*
                                         for(int i = 0; i < QuizesListNames.Count; i++)
@@ -406,7 +407,7 @@
                _selectReward = QuizesList[QuizToRemove];
 
                 // print actual quiz number
-                //Debug.Log(QuizesList[QuizToRemove]);
+                Debug.Log(QuizesList[QuizToRemove]);
 
                 // give index value to new int because it will be deleted before return
                 int NumPassed = QuizesList[QuizToRemove];
