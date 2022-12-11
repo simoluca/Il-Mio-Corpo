@@ -36,6 +36,7 @@
         Sprite[] dots = new Sprite[2];
         bool spinning;
         float anglePerReward, anglePerLight;
+        int QuizToRemove;
 
         // list for active (non completed) quizes.
         // completed quizes will be removed from the list and not be considered by the wheel spin
@@ -68,7 +69,8 @@
                 
                 if(_selectReward == 1)
                   {
-                                        
+                                            QuizesList.RemoveAt(QuizToRemove);
+            
                                         /*
                                         DiCosaSonoFatto.SetActive(true);
                                         QuizIntestinoCrasso.SetActive(true);
@@ -106,6 +108,8 @@
                   }
                      if(_selectReward == 2)
                   {
+                                                                QuizesList.RemoveAt(QuizToRemove);
+
                     
                   //  QuizesList.RemoveAt(1);
                     //Debug.Log(QuizesList[1]);
@@ -130,7 +134,8 @@
                       
                   if(_selectReward == 3)
                   {
-                    
+                                                                QuizesList.RemoveAt(QuizToRemove);
+
                     /*
                     DiCosaSonoFatto.SetActive(true);
                     QuizStomaco.SetActive(true);
@@ -159,7 +164,8 @@
                   }
                   if(_selectReward == 4)
                   {
-                    
+                                                                QuizesList.RemoveAt(QuizToRemove);
+
                     /*
                     DiCosaSonoFatto.SetActive(true);
                     QuizVescica.SetActive(true);
@@ -185,7 +191,8 @@
                   }
                   if(_selectReward == 5)
                   {
-                    
+                                                                QuizesList.RemoveAt(QuizToRemove);
+
                    // DiCosaSonoFatto.SetActive(true);
                    /*
                     for(int i = 0; i < QuizesListNames.Count; i++)
@@ -223,6 +230,8 @@
                   }
                    if(_selectReward == 6)
                   {
+                                                                QuizesList.RemoveAt(QuizToRemove);
+
                     /*
                       for(int i = 0; i < QuizesListNames.Count; i++)
                         {
@@ -243,6 +252,8 @@
                   }
                    if(_selectReward == 7)
                   {
+                                                                QuizesList.RemoveAt(QuizToRemove);
+
                     /*
                         for(int i = 0; i < QuizesListNames.Count; i++)
                         {
@@ -263,6 +274,8 @@
                   }
                     if(_selectReward == 8)
                  {
+                                                                QuizesList.RemoveAt(QuizToRemove);
+
                     /*
                     for(int i = 0; i < QuizesListNames.Count; i++)
                         {
@@ -284,6 +297,8 @@
                  }
                     if(_selectReward == 9)
                  {
+                                                                QuizesList.RemoveAt(QuizToRemove);
+
                 // QuizesList.RemoveAt(8);
                   //                   Debug.Log("HAND is chosen");
               //    QuizesList.Remove(9);
@@ -293,6 +308,8 @@
                  }
                     if(_selectReward == 10)
                  {
+                                                                QuizesList.RemoveAt(QuizToRemove);
+
                //     QuizesList.Remove(10);
                             //          Debug.Log("no quiz yet");
 
@@ -303,6 +320,8 @@
                  }
                     if(_selectReward == 11)
                  {
+                                                                QuizesList.RemoveAt(QuizToRemove);
+
               //      QuizesList.Remove(11);
                                       //Debug.Log("no quiz yet");
 
@@ -313,6 +332,7 @@
                  }
                     if(_selectReward == 12)
                  {
+QuizesList.RemoveAt(QuizToRemove);
               //      QuizesList.Remove(12);
                                       //Debug.Log("no quiz yet");
 
@@ -402,18 +422,18 @@
             get {
                 
                 // random element from 0 to 11
-               int QuizToRemove = Random.Range(0, QuizesList.Count);
+               QuizToRemove = Random.Range(0, QuizesList.Count);
 
                _selectReward = QuizesList[QuizToRemove];
 
                 // print actual quiz number
-                Debug.Log(QuizesList[QuizToRemove]);
+                //Debug.Log(QuizesList[QuizToRemove]);
 
                 // give index value to new int because it will be deleted before return
                 int NumPassed = QuizesList[QuizToRemove];
 
                 //remove at index
-                QuizesList.RemoveAt(QuizToRemove);
+                //QuizesList.RemoveAt(QuizToRemove);
 
                // Debug.Log(QuizesList.Count);
                 return NumPassed;
