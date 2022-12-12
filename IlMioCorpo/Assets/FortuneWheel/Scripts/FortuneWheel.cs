@@ -426,8 +426,9 @@ QuizesList.RemoveAt(QuizToRemove);
         {
            
             get {
-                if(correctpopup.activeSelf == true)
+                if(_selectReward == 1 && correctpopup.activeSelf == true)
                                         {
+                                            QuizesList.RemoveAt(QuizToRemove);
                                             Debug.Log("LARGE INTESTINE is chosen");
                                         }
                 
