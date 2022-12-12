@@ -1972,6 +1972,7 @@ GameObject:
   m_Component:
   - component: {fileID: 151131029}
   - component: {fileID: 151131030}
+  - component: {fileID: 151131031}
   m_Layer: 0
   m_Name: DiCosaSonoFatto
   m_TagString: Untagged
@@ -2025,6 +2026,20 @@ MonoBehaviour:
   Quiz: {fileID: 285933171}
   DiCosaSonoFatto: {fileID: 285933171}
   Finished: 0
+--- !u!114 &151131031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151131028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc51476266beb434db24b4dc941a2092, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  correctpopup: {fileID: 404382731}
 --- !u!1 &152110482
 GameObject:
   m_ObjectHideFlags: 0
@@ -38305,6 +38320,7 @@ MonoBehaviour:
   QuizStomaco: {fileID: 823874211}
   QuizVescica: {fileID: 1517664477}
   winParticles: {fileID: 850620689}
+  correctpopup: {fileID: 1243226759}
 --- !u!1 &2039264416
 GameObject:
   m_ObjectHideFlags: 0

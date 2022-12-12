@@ -26,6 +26,8 @@
         public Transform wheelPartsParent, lightsParent;
         public GameObject DiCosaSonoFatto, QuizOcchi, QuizIntestinoCrasso, QuizOssaGambe, QuizOssaPiedi, QuizSpinaDorsale, QuizStomaco, QuizVescica;
         public GameObject winParticles;
+            public GameObject correctpopup;
+
         //Random random = new Random();
 
         int _selectReward, _coins, cost = 0;
@@ -71,15 +73,19 @@
                   {
                                           //  QuizesList.RemoveAt(QuizToRemove);
             
-                                        /*
+                                        
                                         DiCosaSonoFatto.SetActive(true);
                                         QuizIntestinoCrasso.SetActive(true);
                                         
-                                        if(correctpopupLargeIntestine)
+                                        /*
+
+                                        if(correctpopup.activeInHierarchy == true)
                                         {
                                             Debug.Log("LARGE INTESTINE is chosen");
                                         }
+
                                         */
+                                        
                                         //Debug.Log(QuizesList[0]);
                                         /*
                                         for(int i = 0; i < QuizesListNames.Count; i++)
@@ -420,6 +426,10 @@ QuizesList.RemoveAt(QuizToRemove);
         {
            
             get {
+                if(correctpopup.activeSelf == true)
+                                        {
+                                            Debug.Log("LARGE INTESTINE is chosen");
+                                        }
                 
                 // random element from 0 to 11
                QuizToRemove = Random.Range(0, QuizesList.Count);
