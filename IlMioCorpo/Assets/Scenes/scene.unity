@@ -25936,7 +25936,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1131274348383704, guid: e95f8a617163480449f527b1e40efc14, type: 3}
       propertyPath: m_Name
-      value: WheelPart (Rib Cage)
+      value: WheelPart (Eyes)
       objectReference: {fileID: 0}
     - target: {fileID: 1131274348383704, guid: e95f8a617163480449f527b1e40efc14, type: 3}
       propertyPath: m_IsActive
@@ -25984,15 +25984,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4180033466044964, guid: e95f8a617163480449f527b1e40efc14, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.40938678
+      value: 0.17999865
       objectReference: {fileID: 0}
     - target: {fileID: 4180033466044964, guid: e95f8a617163480449f527b1e40efc14, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.40938678
+      value: 0.17999865
       objectReference: {fileID: 0}
     - target: {fileID: 4180033466044964, guid: e95f8a617163480449f527b1e40efc14, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.40938678
+      value: 0.17999865
       objectReference: {fileID: 0}
     - target: {fileID: 4180033466044964, guid: e95f8a617163480449f527b1e40efc14, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26013,7 +26013,7 @@ PrefabInstance:
     - target: {fileID: 212000737285116796, guid: e95f8a617163480449f527b1e40efc14, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 65f9493bcac61b14ab91490f78978214, type: 3}
+      objectReference: {fileID: 21300000, guid: 1e72ffeab5e32f547bfb3ca4d4863923, type: 3}
     - target: {fileID: 212000737285116796, guid: e95f8a617163480449f527b1e40efc14, type: 3}
       propertyPath: m_SortingOrder
       value: 4
@@ -26042,7 +26042,8 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8908319151804282776, guid: e95f8a617163480449f527b1e40efc14, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e95f8a617163480449f527b1e40efc14, type: 3}
 --- !u!224 &1358673537 stripped
 RectTransform:
@@ -38326,6 +38327,7 @@ MonoBehaviour:
   correctpopupQuizSpinaDorsale: {fileID: 541799672}
   correctpopupQuizOssaGambe: {fileID: 1340185567}
   correctpopupQuizStomaco: {fileID: 1267061440}
+  correctpopupQuizOcchi: {fileID: 1412625259}
 --- !u!1 &2039264416
 GameObject:
   m_ObjectHideFlags: 0

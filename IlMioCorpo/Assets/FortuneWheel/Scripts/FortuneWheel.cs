@@ -32,6 +32,8 @@
         public GameObject correctpopupQuizSpinaDorsale;
         public GameObject correctpopupQuizOssaGambe;
         public GameObject correctpopupQuizStomaco;
+        public GameObject correctpopupQuizOcchi;
+
 
         //Random random = new Random();
 
@@ -102,8 +104,8 @@
                   }
                    if(_selectReward == 6)
                   {
-                    //ANCORA NON ESISTE
-                    //DiCosaSonoFatto.SetActive(true);
+                    DiCosaSonoFatto.SetActive(true);
+                    QuizOcchi.SetActive(true);
                   }
                    if(_selectReward == 7)
                   {
@@ -240,12 +242,13 @@
                         QuizesList.RemoveAt(QuizToRemove);
                         Debug.Log("spine is chosen");
                     }
-                    /*
-                if(_selectReward == 6 && .activeSelf == true)
+                    
+                if(_selectReward == 6 && correctpopupQuizOcchi.activeSelf == true)
                     {
                         QuizesList.RemoveAt(QuizToRemove);
-                        Debug.Log("ANCORA NON ESISTE");
+                        //Debug.Log("occhi ok");
                     }
+                    /*
                  if(_selectReward == 7 && .activeSelf == true)
                     {
                         QuizesList.RemoveAt(QuizToRemove);
