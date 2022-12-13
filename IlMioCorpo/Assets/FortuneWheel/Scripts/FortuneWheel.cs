@@ -28,7 +28,10 @@
         public GameObject winParticles;
         public GameObject correctpopupLargeIntestine;
         public GameObject correctpopupSmallIntestine;
-
+        public GameObject correctpopupQuizVescica;
+        public GameObject correctpopupQuizSpinaDorsale;
+        public GameObject correctpopupQuizOssaGambe;
+        public GameObject correctpopupQuizStomaco;
 
         //Random random = new Random();
 
@@ -101,7 +104,6 @@
                   {
                     //ANCORA NON ESISTE
                     //DiCosaSonoFatto.SetActive(true);
-                    QuizesList.RemoveAt(QuizToRemove);
                   }
                    if(_selectReward == 7)
                   {
@@ -223,6 +225,50 @@
                         QuizesList.RemoveAt(QuizToRemove);
                         Debug.Log("small INTESTINE is chosen");
                     }
+                if(_selectReward == 3 && correctpopupQuizStomaco.activeSelf == true)
+                    {
+                        QuizesList.RemoveAt(QuizToRemove);
+                        Debug.Log("stomach is chosen");
+                    }
+                if(_selectReward == 4 && correctpopupQuizVescica.activeSelf == true)
+                    {
+                        QuizesList.RemoveAt(QuizToRemove);
+                        Debug.Log("bladder is chosen");
+                    }
+                if(_selectReward == 5 && correctpopupQuizSpinaDorsale.activeSelf == true)
+                    {
+                        QuizesList.RemoveAt(QuizToRemove);
+                        Debug.Log("spine is chosen");
+                    }
+                    /*
+                if(_selectReward == 6 && .activeSelf == true)
+                    {
+                        QuizesList.RemoveAt(QuizToRemove);
+                        Debug.Log("ANCORA NON ESISTE");
+                    }
+                 if(_selectReward == 7 && .activeSelf == true)
+                    {
+                        QuizesList.RemoveAt(QuizToRemove);
+                        Debug.Log("ANCORA NON ESISTE");
+                    }
+                    */
+                if(_selectReward == 8 && correctpopupQuizOssaGambe.activeSelf == true)
+                    {
+                        QuizesList.RemoveAt(QuizToRemove);
+                        Debug.Log("spine is chosen");
+                    }
+                    /*
+                if(_selectReward == 9 && .activeSelf == true)
+                    {
+                        QuizesList.RemoveAt(QuizToRemove);
+                        Debug.Log("ANCORA NON ESISTE");
+                    }
+                    */
+                    
+                
+                
+
+
                 
                 // random element from 0 to 11
                QuizToRemove = Random.Range(0, QuizesList.Count);

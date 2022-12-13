@@ -38318,8 +38318,14 @@ MonoBehaviour:
   QuizSpinaDorsale: {fileID: 285933171}
   QuizStomaco: {fileID: 823874211}
   QuizVescica: {fileID: 1517664477}
+  QuizIntestinoTenue: {fileID: 2142131624}
   winParticles: {fileID: 850620689}
   correctpopupLargeIntestine: {fileID: 1243226759}
+  correctpopupSmallIntestine: {fileID: 802925443}
+  correctpopupQuizVescica: {fileID: 1683386162}
+  correctpopupQuizSpinaDorsale: {fileID: 541799672}
+  correctpopupQuizOssaGambe: {fileID: 1340185567}
+  correctpopupQuizStomaco: {fileID: 1267061440}
 --- !u!1 &2039264416
 GameObject:
   m_ObjectHideFlags: 0
