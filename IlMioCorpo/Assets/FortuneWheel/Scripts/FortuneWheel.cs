@@ -11,7 +11,7 @@
         
     public class FortuneWheel : MonoBehaviour
     {
-        public SlotScriptLargeIntestine correctpopupLargeIntestine;
+       // public SlotScriptLargeIntestine correctpopupLLargeIntestineLargeIntestine;
   
         
         [Header("UI Properties")]
@@ -26,7 +26,7 @@
         public Transform wheelPartsParent, lightsParent;
         public GameObject DiCosaSonoFatto, QuizOcchi, QuizIntestinoCrasso, QuizOssaGambe, QuizOssaPiedi, QuizSpinaDorsale, QuizStomaco, QuizVescica;
         public GameObject winParticles;
-            public GameObject correctpopup;
+        public GameObject correctpopupLargeIntestine;
 
         //Random random = new Random();
 
@@ -79,7 +79,7 @@
                                         
                                         /*
 
-                                        if(correctpopup.activeInHierarchy == true)
+                                        if(correctpopupLLargeIntestine.activeInHierarchy == true)
                                         {
                                             Debug.Log("LARGE INTESTINE is chosen");
                                         }
@@ -426,11 +426,11 @@ QuizesList.RemoveAt(QuizToRemove);
         {
            
             get {
-                if(_selectReward == 1 && correctpopup.activeSelf == true)
-                                        {
-                                            QuizesList.RemoveAt(QuizToRemove);
-                                            Debug.Log("LARGE INTESTINE is chosen");
-                                        }
+                if(_selectReward == 1 && correctpopupLargeIntestine.activeSelf == true)
+                    {
+                        QuizesList.RemoveAt(QuizToRemove);
+                        Debug.Log("LARGE INTESTINE is chosen");
+                    }
                 
                 // random element from 0 to 11
                QuizToRemove = Random.Range(0, QuizesList.Count);
