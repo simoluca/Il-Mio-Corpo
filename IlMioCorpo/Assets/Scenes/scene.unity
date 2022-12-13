@@ -27928,7 +27928,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1131274348383704, guid: e95f8a617163480449f527b1e40efc14, type: 3}
       propertyPath: m_Name
-      value: WheelPart (Heart)
+      value: WheelPart (Foot)
       objectReference: {fileID: 0}
     - target: {fileID: 1131274348383704, guid: e95f8a617163480449f527b1e40efc14, type: 3}
       propertyPath: m_IsActive
@@ -28005,7 +28005,7 @@ PrefabInstance:
     - target: {fileID: 212000737285116796, guid: e95f8a617163480449f527b1e40efc14, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 6c104bf504824c64f857a0dd69d0de80, type: 3}
+      objectReference: {fileID: 21300000, guid: b42355392bf12664cac76acd8d6f9e9b, type: 3}
     - target: {fileID: 212000737285116796, guid: e95f8a617163480449f527b1e40efc14, type: 3}
       propertyPath: m_SortingOrder
       value: 4
@@ -38328,6 +38328,7 @@ MonoBehaviour:
   correctpopupQuizOssaGambe: {fileID: 1340185567}
   correctpopupQuizStomaco: {fileID: 1267061440}
   correctpopupQuizOcchi: {fileID: 1412625259}
+  correctpopupQuizOssaPiedi: {fileID: 0}
 --- !u!1 &2039264416
 GameObject:
   m_ObjectHideFlags: 0

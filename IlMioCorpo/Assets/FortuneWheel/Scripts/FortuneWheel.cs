@@ -33,6 +33,7 @@
         public GameObject correctpopupQuizOssaGambe;
         public GameObject correctpopupQuizStomaco;
         public GameObject correctpopupQuizOcchi;
+        public GameObject correctpopupQuizOssaPiedi;
 
 
         //Random random = new Random();
@@ -109,9 +110,8 @@
                   }
                    if(_selectReward == 7)
                   {
-                    //ANCORA NON ESISTE
-                    //DiCosaSonoFatto.SetActive(true);
-                    QuizesList.RemoveAt(QuizToRemove);
+                    DiCosaSonoFatto.SetActive(true);
+                    QuizOssaPiedi.SetActive(true);
                   }
                     if(_selectReward == 8)
                  {
