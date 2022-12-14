@@ -356,6 +356,7 @@
 "Assets/Scripts/SceneChange.cs"
 "Assets/Scripts/SceneChangeCHIUDI.cs"
 "Assets/Scripts/SlotScript.cs"
+"Assets/Scripts/SlotScriptCostruisciUnCorpo.cs"
 "Assets/Scripts/SlotScriptLargeIntestine.cs"
 "Assets/Scripts/SlotScriptSpinaDorsale.cs"
 "Assets/Scripts/WheelEnable.cs"
