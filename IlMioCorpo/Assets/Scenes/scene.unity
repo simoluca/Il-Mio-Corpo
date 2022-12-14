@@ -357,7 +357,7 @@ GameObject:
   - component: {fileID: 18005410}
   - component: {fileID: 18005409}
   m_Layer: 5
-  m_Name: LeftLeg
+  m_Name: LeftLeg (bg)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5170,7 +5170,7 @@ GameObject:
   - component: {fileID: 303945149}
   - component: {fileID: 303945148}
   m_Layer: 5
-  m_Name: Pelvis
+  m_Name: Pelvis (bg)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5518,7 +5518,7 @@ GameObject:
   - component: {fileID: 314249611}
   - component: {fileID: 314249610}
   m_Layer: 5
-  m_Name: Kidneys
+  m_Name: Kidneys (bg)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9490,7 +9490,7 @@ GameObject:
   - component: {fileID: 448349818}
   - component: {fileID: 448349817}
   m_Layer: 5
-  m_Name: Skull
+  m_Name: Skull (bg)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9763,7 +9763,7 @@ GameObject:
   - component: {fileID: 461102185}
   - component: {fileID: 461102184}
   m_Layer: 5
-  m_Name: Heart (1)
+  m_Name: Heart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10368,7 +10368,7 @@ GameObject:
   - component: {fileID: 489458427}
   - component: {fileID: 489458426}
   m_Layer: 5
-  m_Name: eyeLeft (1)
+  m_Name: LeftEye (bg)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12185,7 +12185,7 @@ GameObject:
   - component: {fileID: 559338814}
   - component: {fileID: 559338813}
   m_Layer: 5
-  m_Name: Ribcage (1)
+  m_Name: Ribcage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15997,7 +15997,7 @@ GameObject:
   - component: {fileID: 732590753}
   - component: {fileID: 732590752}
   m_Layer: 5
-  m_Name: Lungs (1)
+  m_Name: Lungs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16073,7 +16073,7 @@ GameObject:
   - component: {fileID: 734850312}
   - component: {fileID: 734850311}
   m_Layer: 5
-  m_Name: Heart
+  m_Name: Heart (bg)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16149,7 +16149,7 @@ GameObject:
   - component: {fileID: 736954649}
   - component: {fileID: 736954648}
   m_Layer: 5
-  m_Name: Liver (1)
+  m_Name: Liver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17271,7 +17271,7 @@ GameObject:
   - component: {fileID: 819819251}
   - component: {fileID: 819819250}
   m_Layer: 5
-  m_Name: LeftLeg (1)
+  m_Name: LeftLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17743,7 +17743,7 @@ GameObject:
   - component: {fileID: 832970338}
   - component: {fileID: 832970337}
   m_Layer: 5
-  m_Name: RightArm (1)
+  m_Name: RightArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20414,7 +20414,7 @@ GameObject:
   - component: {fileID: 945791645}
   - component: {fileID: 945791644}
   m_Layer: 5
-  m_Name: LargeIntestine (1)
+  m_Name: LargeIntestine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22202,7 +22202,7 @@ GameObject:
   - component: {fileID: 1040062447}
   - component: {fileID: 1040062446}
   m_Layer: 5
-  m_Name: Spine
+  m_Name: Spine (bg)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24342,7 +24342,7 @@ GameObject:
   - component: {fileID: 1181679491}
   - component: {fileID: 1181679490}
   m_Layer: 5
-  m_Name: LefRight (1)
+  m_Name: RightLeg (bg)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24510,7 +24510,7 @@ GameObject:
   - component: {fileID: 1192878459}
   - component: {fileID: 1192878458}
   m_Layer: 5
-  m_Name: Spine (1)
+  m_Name: Spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25243,7 +25243,7 @@ GameObject:
   - component: {fileID: 1209640396}
   - component: {fileID: 1209640395}
   m_Layer: 5
-  m_Name: LargeIntestine
+  m_Name: LargeIntestine (bg)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27554,7 +27554,7 @@ GameObject:
   - component: {fileID: 1314116696}
   - component: {fileID: 1314116695}
   m_Layer: 5
-  m_Name: SmallIntestine
+  m_Name: SmallIntestine (bg)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29836,7 +29836,7 @@ GameObject:
   - component: {fileID: 1410433866}
   - component: {fileID: 1410433865}
   m_Layer: 5
-  m_Name: Liver
+  m_Name: Liver (bg)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29991,7 +29991,7 @@ GameObject:
   - component: {fileID: 1415818180}
   - component: {fileID: 1415818179}
   m_Layer: 5
-  m_Name: SmallIntestine (1)
+  m_Name: SmallIntestine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30527,7 +30527,7 @@ GameObject:
   - component: {fileID: 1452189061}
   - component: {fileID: 1452189060}
   m_Layer: 5
-  m_Name: Skull (1)
+  m_Name: Skull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35097,7 +35097,7 @@ GameObject:
   - component: {fileID: 1624432538}
   - component: {fileID: 1624432537}
   m_Layer: 5
-  m_Name: Ribcage
+  m_Name: Ribcage (bg)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36253,7 +36253,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1688690687
 RectTransform:
   m_ObjectHideFlags: 0
@@ -37945,7 +37945,7 @@ GameObject:
   - component: {fileID: 1785078373}
   - component: {fileID: 1785078372}
   m_Layer: 5
-  m_Name: RightArm
+  m_Name: RightArm (bg)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40481,7 +40481,7 @@ GameObject:
   - component: {fileID: 1901458038}
   - component: {fileID: 1901458037}
   m_Layer: 5
-  m_Name: Bladder
+  m_Name: Bladder (bg)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40557,7 +40557,7 @@ GameObject:
   - component: {fileID: 1906384749}
   - component: {fileID: 1906384748}
   m_Layer: 5
-  m_Name: LeftArm
+  m_Name: LeftArm (bg)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42302,7 +42302,7 @@ GameObject:
   - component: {fileID: 1979876308}
   - component: {fileID: 1979876307}
   m_Layer: 5
-  m_Name: LeftArm (1)
+  m_Name: LeftArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42513,7 +42513,7 @@ GameObject:
   - component: {fileID: 1998571190}
   - component: {fileID: 1998571189}
   m_Layer: 5
-  m_Name: Lungs
+  m_Name: Lungs (bg)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42589,7 +42589,7 @@ GameObject:
   - component: {fileID: 2001946381}
   - component: {fileID: 2001946380}
   m_Layer: 5
-  m_Name: LefRight
+  m_Name: RightLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43106,7 +43106,7 @@ GameObject:
   - component: {fileID: 2070143332}
   - component: {fileID: 2070143331}
   m_Layer: 5
-  m_Name: Kidneys (1)
+  m_Name: Kidneys
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43182,7 +43182,7 @@ GameObject:
   - component: {fileID: 2070767386}
   - component: {fileID: 2070767385}
   m_Layer: 5
-  m_Name: Bladder (1)
+  m_Name: Bladder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44488,7 +44488,7 @@ GameObject:
   - component: {fileID: 2111865101}
   - component: {fileID: 2111865100}
   m_Layer: 5
-  m_Name: eyeLeft
+  m_Name: RightEye (bg)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
