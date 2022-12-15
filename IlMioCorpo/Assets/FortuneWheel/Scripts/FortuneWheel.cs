@@ -287,7 +287,7 @@
                     }
                     */
                 
-                   if (QuizCompletedCounter == 2)
+                   if (QuizCompletedCounter == 10)
                 {
                      DiCosaSonoFatto.SetActive(true);
                     QuizCompleto.SetActive(true);
