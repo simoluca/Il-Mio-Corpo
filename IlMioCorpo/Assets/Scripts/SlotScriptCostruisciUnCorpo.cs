@@ -48,7 +48,7 @@ public class SlotScriptCostruisciUnCorpo : MonoBehaviour, IDropHandler
                     //Debug.Log("FALSE");
                 }
         }
-
+/*
         if(id_counter ==  16)
             {
 
@@ -62,7 +62,7 @@ public class SlotScriptCostruisciUnCorpo : MonoBehaviour, IDropHandler
                 //Debug.Log("Corretto");
 
             }
-    
+    */
 
     }
 
