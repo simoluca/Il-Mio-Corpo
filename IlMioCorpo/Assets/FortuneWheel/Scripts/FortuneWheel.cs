@@ -136,7 +136,7 @@
                     if(_selectReward == 12)
                  {
                     //ANCORA NON ESISTE
-                    QuizesList.RemoveAt(QuizToRemove);
+                /QuizesList.RemoveAt(QuizToRemove);
                  }
 
                 

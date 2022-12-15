@@ -43975,7 +43975,7 @@ MonoBehaviour:
   correctpopupQuizOssaGambe: {fileID: 1340185567}
   correctpopupQuizStomaco: {fileID: 1267061440}
   correctpopupQuizOcchi: {fileID: 1412625259}
-  correctpopupQuizOssaPiedi: {fileID: 0}
+  correctpopupQuizOssaPiedi: {fileID: 623472020}
 --- !u!1 &2039264416
 GameObject:
   m_ObjectHideFlags: 0
