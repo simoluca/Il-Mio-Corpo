@@ -10,6 +10,8 @@ public class SlotScriptLargeIntestine : MonoBehaviour, IDropHandler
     public int id;
     public static int id_counter = 0;
     public GameObject correctpopup;
+    public AudioSource CorrectAudio;
+
 
 
     public void OnDrop(PointerEventData eventData)
@@ -44,6 +46,7 @@ public class SlotScriptLargeIntestine : MonoBehaviour, IDropHandler
 
         if(id_counter ==  3)
             {
+                CorrectAudio.Play();
                 correctpopup.SetActive(true);
                 //Debug.Log("Corretto");
 

@@ -2484,7 +2484,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &151131029
 Transform:
   m_ObjectHideFlags: 0
@@ -2545,6 +2545,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   correctpopup: {fileID: 404382731}
+  CorrectAudio: {fileID: 0}
 --- !u!1 &152110482
 GameObject:
   m_ObjectHideFlags: 0
@@ -6825,7 +6826,6 @@ GameObject:
   - component: {fileID: 360808752}
   - component: {fileID: 360808751}
   - component: {fileID: 360808750}
-  - component: {fileID: 360808749}
   m_Layer: 5
   m_Name: Colon
   m_TagString: Perone
@@ -6854,22 +6854,6 @@ RectTransform:
   m_AnchoredPosition: {x: -367.94305, y: -68.974754}
   m_SizeDelta: {x: -516.7899, y: -151.23067}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &360808749
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 360808747}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6e09fd3141d25740bdf530e56b1f7ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 3
-  correctpopup: {fileID: 0}
-  CorrectAudio: {fileID: 0}
-  QuestionMarkButton: {fileID: 0}
 --- !u!225 &360808750
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -10962,6 +10946,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   correctpopup: {fileID: 1243226759}
+  CorrectAudio: {fileID: 947397380}
 --- !u!61 &497955143
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17191,6 +17176,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 1
   correctpopup: {fileID: 1243226759}
+  CorrectAudio: {fileID: 947397380}
 --- !u!61 &795679956
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22376,7 +22362,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1016231995
 RectTransform:
   m_ObjectHideFlags: 0
@@ -22997,6 +22983,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 3
   correctpopup: {fileID: 1243226759}
+  CorrectAudio: {fileID: 947397380}
 --- !u!61 &1048868251
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24502,7 +24489,6 @@ GameObject:
   - component: {fileID: 1154010734}
   - component: {fileID: 1154010733}
   - component: {fileID: 1154010732}
-  - component: {fileID: 1154010731}
   m_Layer: 5
   m_Name: Cieco
   m_TagString: Perone
@@ -24531,22 +24517,6 @@ RectTransform:
   m_AnchoredPosition: {x: -367.94305, y: 60.775307}
   m_SizeDelta: {x: -516.7899, y: -151.23067}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1154010731
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1154010729}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6e09fd3141d25740bdf530e56b1f7ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 1
-  correctpopup: {fileID: 0}
-  CorrectAudio: {fileID: 0}
-  QuestionMarkButton: {fileID: 0}
 --- !u!225 &1154010732
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -38147,7 +38117,6 @@ GameObject:
   - component: {fileID: 1732945796}
   - component: {fileID: 1732945795}
   - component: {fileID: 1732945794}
-  - component: {fileID: 1732945793}
   m_Layer: 5
   m_Name: Retto
   m_TagString: Perone
@@ -38176,22 +38145,6 @@ RectTransform:
   m_AnchoredPosition: {x: -367.94305, y: -3.914215}
   m_SizeDelta: {x: -516.7899, y: -151.23067}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1732945793
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1732945791}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6e09fd3141d25740bdf530e56b1f7ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 2
-  correctpopup: {fileID: 0}
-  CorrectAudio: {fileID: 0}
-  QuestionMarkButton: {fileID: 0}
 --- !u!225 &1732945794
 CanvasGroup:
   m_ObjectHideFlags: 0
