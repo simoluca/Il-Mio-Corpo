@@ -2427,15 +2427,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 151131029}
-  - component: {fileID: 151131030}
-  - component: {fileID: 151131031}
   m_Layer: 0
   m_Name: DiCosaSonoFatto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &151131029
 Transform:
   m_ObjectHideFlags: 0
@@ -2460,43 +2458,10 @@ Transform:
   - {fileID: 1517664478}
   - {fileID: 439423451}
   - {fileID: 2066797669}
+  - {fileID: 1376165394}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &151131030
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 151131028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dcea511ba627a7e408176fc8ef7a0fca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  correctpopup: {fileID: 0}
-  CorrectAudio: {fileID: 0}
-  QuestionMarkButton: {fileID: 0}
-  Quiz: {fileID: 285933171}
-  DiCosaSonoFatto: {fileID: 285933171}
-  Finished: 0
---- !u!114 &151131031
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 151131028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc51476266beb434db24b4dc941a2092, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  correctpopup: {fileID: 404382731}
-  CorrectAudio: {fileID: 0}
 --- !u!1 &152110482
 GameObject:
   m_ObjectHideFlags: 0
@@ -3359,7 +3324,6 @@ Transform:
   - {fileID: 776132042}
   - {fileID: 1850604502}
   - {fileID: 53641002}
-  - {fileID: 1376165394}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4146,7 +4110,6 @@ GameObject:
   - component: {fileID: 258455239}
   - component: {fileID: 258455238}
   - component: {fileID: 258455237}
-  - component: {fileID: 258455236}
   - component: {fileID: 258455235}
   m_Layer: 5
   m_Name: QuizOcchi
@@ -4191,21 +4154,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Quiz: {fileID: 258455233}
   QuizParent: {fileID: 151131028}
---- !u!114 &258455236
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 258455233}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73078ad09e7cddf4aac618cff0221ac3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  helpPopUp: {fileID: 0}
-  helpPopUp2: {fileID: 0}
-  speechButton: {fileID: 0}
 --- !u!114 &258455237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13450,8 +13398,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RetryText: {fileID: 1792981724}
   CorrettoPopUp: {fileID: 1412625259}
-  CorrectAudio: {fileID: 0}
-  WrongAudio: {fileID: 0}
+  CorrectAudio: {fileID: 1406124398}
+  WrongAudio: {fileID: 919831972}
 --- !u!114 &619616523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29497,8 +29445,8 @@ Transform:
   - {fileID: 1406124399}
   - {fileID: 919831971}
   - {fileID: 663198338}
-  m_Father: {fileID: 210206299}
-  m_RootOrder: 4
+  m_Father: {fileID: 151131029}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1376165395
 AudioSource:
@@ -43935,6 +43883,7 @@ MonoBehaviour:
   QuizStomaco: {fileID: 823874211}
   QuizVescica: {fileID: 1517664477}
   QuizIntestinoTenue: {fileID: 2142131624}
+  QuizCompleto: {fileID: 2066797668}
   winParticles: {fileID: 850620689}
   correctpopupLargeIntestine: {fileID: 1243226759}
   correctpopupSmallIntestine: {fileID: 802925443}
@@ -44330,7 +44279,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2066797669
 RectTransform:
   m_ObjectHideFlags: 0

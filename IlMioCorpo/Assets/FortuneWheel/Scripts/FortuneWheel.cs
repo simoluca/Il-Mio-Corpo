@@ -24,7 +24,10 @@
         [Header("Fortune Wheel Properties")]
         public Transform wheelToRotate;
         public Transform wheelPartsParent, lightsParent;
-        public GameObject DiCosaSonoFatto, QuizOcchi, QuizIntestinoCrasso, QuizOssaGambe, QuizOssaPiedi, QuizSpinaDorsale, QuizStomaco, QuizVescica, QuizIntestinoTenue;
+
+        public GameObject DiCosaSonoFatto, QuizOcchi, QuizIntestinoCrasso, QuizOssaGambe, QuizOssaPiedi, 
+        QuizSpinaDorsale, QuizStomaco, QuizVescica, QuizIntestinoTenue, QuizCompleto;
+
         public GameObject winParticles;
         public GameObject correctpopupLargeIntestine;
         public GameObject correctpopupSmallIntestine;
@@ -279,7 +282,12 @@
                         Debug.Log("ANCORA NON ESISTE");
                     }
                     */
-                    
+                
+                if (QuizCompletedCounter == 1)
+                {
+                     DiCosaSonoFatto.SetActive(true);
+                    QuizCompleto.SetActive(true);
+                }
                 
 
                 
