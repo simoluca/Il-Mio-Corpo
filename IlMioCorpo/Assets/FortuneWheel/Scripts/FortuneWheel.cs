@@ -220,27 +220,27 @@
                 if(_selectReward == 1 && correctpopupLargeIntestine.activeSelf == true)
                     {
                         QuizesList.RemoveAt(QuizToRemove);
-                        Debug.Log("LARGE INTESTINE is chosen");
+                        Debug.Log("LARGE INTESTINE ok");
                     }
                 if(_selectReward == 2 && correctpopupSmallIntestine.activeSelf == true)
                     {
                         QuizesList.RemoveAt(QuizToRemove);
-                        Debug.Log("small INTESTINE is chosen");
+                        Debug.Log("small INTESTINE ok");
                     }
                 if(_selectReward == 3 && correctpopupQuizStomaco.activeSelf == true)
                     {
                         QuizesList.RemoveAt(QuizToRemove);
-                        Debug.Log("stomach is chosen");
+                        Debug.Log("stomach ok");
                     }
                 if(_selectReward == 4 && correctpopupQuizVescica.activeSelf == true)
                     {
                         QuizesList.RemoveAt(QuizToRemove);
-                        Debug.Log("bladder is chosen");
+                        Debug.Log("bladder ok");
                     }
                 if(_selectReward == 5 && correctpopupQuizSpinaDorsale.activeSelf == true)
                     {
                         QuizesList.RemoveAt(QuizToRemove);
-                        Debug.Log("spine is chosen");
+                        Debug.Log("spine ok");
                     }
                     
                 if(_selectReward == 6 && correctpopupQuizOcchi.activeSelf == true)
@@ -248,17 +248,16 @@
                         QuizesList.RemoveAt(QuizToRemove);
                         //Debug.Log("occhi ok");
                     }
-                    /*
-                 if(_selectReward == 7 && .activeSelf == true)
+                    
+                 if(_selectReward == 7 && correctpopupQuizOssaPiedi.activeSelf == true)
                     {
                         QuizesList.RemoveAt(QuizToRemove);
-                        Debug.Log("ANCORA NON ESISTE");
+                        Debug.Log("ossa piedi ok");
                     }
-                    */
                 if(_selectReward == 8 && correctpopupQuizOssaGambe.activeSelf == true)
                     {
                         QuizesList.RemoveAt(QuizToRemove);
-                        Debug.Log("spine is chosen");
+                        Debug.Log("leg ok");
                     }
                     /*
                 if(_selectReward == 9 && .activeSelf == true)

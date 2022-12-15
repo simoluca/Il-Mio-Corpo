@@ -1790,8 +1790,6 @@ GameObject:
   - component: {fileID: 114911735}
   - component: {fileID: 114911740}
   - component: {fileID: 114911739}
-  - component: {fileID: 114911738}
-  - component: {fileID: 114911737}
   - component: {fileID: 114911741}
   m_Layer: 5
   m_Name: Image4 (bg)
@@ -1820,53 +1818,6 @@ RectTransform:
   m_AnchoredPosition: {x: 291.6305, y: 147.10762}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!61 &114911737
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 114911734}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!50 &114911738
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 114911734}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!114 &114911739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11861,7 +11812,6 @@ GameObject:
   - component: {fileID: 541480972}
   - component: {fileID: 541480975}
   - component: {fileID: 541480974}
-  - component: {fileID: 541480973}
   m_Layer: 5
   m_Name: Image (1)
   m_TagString: Untagged
@@ -11889,21 +11839,6 @@ RectTransform:
   m_AnchoredPosition: {x: 58.00004, y: 97.300026}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &541480973
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 541480971}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36e1f39878ade8043a9cb607a2c42bf6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myCanvas: {fileID: 285933173}
-  id: 1
-  initPos: {x: 0, y: 0}
 --- !u!114 &541480974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17884,8 +17819,6 @@ GameObject:
   - component: {fileID: 823532925}
   - component: {fileID: 823532930}
   - component: {fileID: 823532929}
-  - component: {fileID: 823532928}
-  - component: {fileID: 823532927}
   - component: {fileID: 823532931}
   m_Layer: 5
   m_Name: Image2 (bg)
@@ -17914,53 +17847,6 @@ RectTransform:
   m_AnchoredPosition: {x: 288.9425, y: -72.830765}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!61 &823532927
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 823532924}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!50 &823532928
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 823532924}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!114 &823532929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18881,7 +18767,6 @@ GameObject:
   - component: {fileID: 858284106}
   - component: {fileID: 858284109}
   - component: {fileID: 858284108}
-  - component: {fileID: 858284107}
   m_Layer: 5
   m_Name: Image (4)
   m_TagString: Untagged
@@ -18909,21 +18794,6 @@ RectTransform:
   m_AnchoredPosition: {x: 69, y: -41}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &858284107
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 858284105}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36e1f39878ade8043a9cb607a2c42bf6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myCanvas: {fileID: 285933173}
-  id: 4
-  initPos: {x: 0, y: 0}
 --- !u!114 &858284108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24340,8 +24210,6 @@ GameObject:
   - component: {fileID: 1153836576}
   - component: {fileID: 1153836581}
   - component: {fileID: 1153836580}
-  - component: {fileID: 1153836579}
-  - component: {fileID: 1153836578}
   - component: {fileID: 1153836582}
   m_Layer: 5
   m_Name: Image3 (bg)
@@ -24370,53 +24238,6 @@ RectTransform:
   m_AnchoredPosition: {x: 302.7146, y: 48.43306}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!61 &1153836578
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1153836575}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!50 &1153836579
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1153836575}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!114 &1153836580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25129,7 +24950,6 @@ GameObject:
   - component: {fileID: 1185631982}
   - component: {fileID: 1185631985}
   - component: {fileID: 1185631984}
-  - component: {fileID: 1185631983}
   m_Layer: 5
   m_Name: Image (3)
   m_TagString: Untagged
@@ -25157,21 +24977,6 @@ RectTransform:
   m_AnchoredPosition: {x: -394, y: 33.999996}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1185631983
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1185631981}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36e1f39878ade8043a9cb607a2c42bf6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myCanvas: {fileID: 285933173}
-  id: 3
-  initPos: {x: 0, y: 0}
 --- !u!114 &1185631984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25556,7 +25361,6 @@ GameObject:
   - component: {fileID: 1196902074}
   - component: {fileID: 1196902077}
   - component: {fileID: 1196902076}
-  - component: {fileID: 1196902075}
   m_Layer: 5
   m_Name: Image (2)
   m_TagString: Untagged
@@ -25584,21 +25388,6 @@ RectTransform:
   m_AnchoredPosition: {x: -162, y: 23}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1196902075
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1196902073}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36e1f39878ade8043a9cb607a2c42bf6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myCanvas: {fileID: 285933173}
-  id: 2
-  initPos: {x: 0, y: 0}
 --- !u!114 &1196902076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46414,8 +46203,6 @@ GameObject:
   - component: {fileID: 2129862841}
   - component: {fileID: 2129862846}
   - component: {fileID: 2129862845}
-  - component: {fileID: 2129862844}
-  - component: {fileID: 2129862843}
   - component: {fileID: 2129862847}
   m_Layer: 5
   m_Name: Image1 (bg)
@@ -46444,53 +46231,6 @@ RectTransform:
   m_AnchoredPosition: {x: 291, y: -144.37924}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!61 &2129862843
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2129862840}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!50 &2129862844
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2129862840}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!114 &2129862845
 MonoBehaviour:
   m_ObjectHideFlags: 0
