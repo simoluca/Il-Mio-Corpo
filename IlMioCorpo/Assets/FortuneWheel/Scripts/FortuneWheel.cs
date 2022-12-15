@@ -224,6 +224,7 @@
        // public int targetToStopOn { get { return Random.Range(0, 12); } }
         public int targetToStopOn 
         {
+             
            
             get {
               
@@ -286,7 +287,12 @@
                     }
                     */
                 
-                
+                   if (QuizCompletedCounter == 2)
+                {
+                     DiCosaSonoFatto.SetActive(true);
+                    QuizCompleto.SetActive(true);
+                } 
+              
                 
 
                 
@@ -401,11 +407,7 @@
 
         IEnumerator PlayAnimationWhenStationary(Sprite sp1, Sprite sp2)
         {
-            if (QuizCompletedCounter == 2)
-                {
-                     DiCosaSonoFatto.SetActive(true);
-                    QuizCompleto.SetActive(true);
-                } 
+          
             yield return new WaitForSeconds(0.2f);
             count++;
             for (int i = 0; i < lightObjs.Length; i++)
