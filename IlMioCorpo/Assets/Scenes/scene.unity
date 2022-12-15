@@ -1870,7 +1870,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 1
   correctpopup: {fileID: 541799672}
-  CorrectAudio: {fileID: 0}
+  CorrectAudio: {fileID: 1406124398}
   QuestionMarkButton: {fileID: 575659113}
   Quiz: {fileID: 285933171}
   DiCosaSonoFatto: {fileID: 151131028}
@@ -17588,7 +17588,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 3
   correctpopup: {fileID: 541799672}
-  CorrectAudio: {fileID: 0}
+  CorrectAudio: {fileID: 1406124398}
   QuestionMarkButton: {fileID: 575659113}
   Quiz: {fileID: 285933171}
   DiCosaSonoFatto: {fileID: 151131028}
@@ -19626,8 +19626,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RetryText: {fileID: 1058048408}
   CorrettoPopUp: {fileID: 802925443}
-  CorrectAudio: {fileID: 0}
-  WrongAudio: {fileID: 0}
+  CorrectAudio: {fileID: 1406124398}
+  WrongAudio: {fileID: 663198339}
   QuestionMarkButton: {fileID: 211426377}
 --- !u!114 &905699274
 MonoBehaviour:
@@ -20520,7 +20520,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 4
   correctpopup: {fileID: 1340185567}
-  CorrectAudio: {fileID: 0}
+  CorrectAudio: {fileID: 1406124398}
   QuestionMarkButton: {fileID: 1270407551}
 --- !u!61 &945481002
 BoxCollider2D:
@@ -21910,8 +21910,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RetryText: {fileID: 1021565066}
   CorrettoPopUp: {fileID: 623472020}
-  CorrectAudio: {fileID: 0}
-  WrongAudio: {fileID: 0}
+  CorrectAudio: {fileID: 1406124398}
+  WrongAudio: {fileID: 919831972}
 --- !u!114 &1016231997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23733,7 +23733,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 3
   correctpopup: {fileID: 1340185567}
-  CorrectAudio: {fileID: 0}
+  CorrectAudio: {fileID: 1406124398}
   QuestionMarkButton: {fileID: 1270407551}
 --- !u!61 &1125186849
 BoxCollider2D:
@@ -24066,7 +24066,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   correctpopup: {fileID: 541799672}
-  CorrectAudio: {fileID: 0}
+  CorrectAudio: {fileID: 1406124398}
   QuestionMarkButton: {fileID: 575659113}
   Quiz: {fileID: 285933171}
   DiCosaSonoFatto: {fileID: 151131028}
@@ -26854,7 +26854,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 1
   correctpopup: {fileID: 1340185567}
-  CorrectAudio: {fileID: 0}
+  CorrectAudio: {fileID: 1406124398}
   QuestionMarkButton: {fileID: 1270407551}
 --- !u!61 &1274138648
 BoxCollider2D:
@@ -31670,7 +31670,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   correctpopup: {fileID: 1340185567}
-  CorrectAudio: {fileID: 0}
+  CorrectAudio: {fileID: 1406124398}
   QuestionMarkButton: {fileID: 1270407551}
 --- !u!61 &1476926590
 BoxCollider2D:
@@ -35480,8 +35480,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RetryText: {fileID: 1524222678}
   CorrettoPopUp: {fileID: 1683386162}
-  CorrectAudio: {fileID: 0}
-  WrongAudio: {fileID: 0}
+  CorrectAudio: {fileID: 1406124398}
+  WrongAudio: {fileID: 919831972}
   QuestionMarkButton: {fileID: 1206273853}
 --- !u!114 &1616485909
 MonoBehaviour:
@@ -36618,8 +36618,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RetryText: {fileID: 1491252589}
   CorrettoPopUp: {fileID: 1267061440}
-  CorrectAudio: {fileID: 0}
-  WrongAudio: {fileID: 0}
+  CorrectAudio: {fileID: 1406124398}
+  WrongAudio: {fileID: 919831972}
   QuestionMarkButton: {fileID: 1211913113}
 --- !u!114 &1679510157
 MonoBehaviour:
@@ -46506,7 +46506,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 4
   correctpopup: {fileID: 541799672}
-  CorrectAudio: {fileID: 0}
+  CorrectAudio: {fileID: 1406124398}
   QuestionMarkButton: {fileID: 575659113}
   Quiz: {fileID: 285933171}
   DiCosaSonoFatto: {fileID: 151131028}

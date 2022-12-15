@@ -78,6 +78,7 @@
             
             get
             {
+           
 
                 Debug.Log(_selectReward);
                 
@@ -225,6 +226,8 @@
         {
            
             get {
+              
+                
                 if(_selectReward == 1 && correctpopupLargeIntestine.activeSelf == true)
                     {
                         QuizesList.RemoveAt(QuizToRemove);
@@ -283,11 +286,7 @@
                     }
                     */
                 
-                if (QuizCompletedCounter == 1)
-                {
-                     DiCosaSonoFatto.SetActive(true);
-                    QuizCompleto.SetActive(true);
-                }
+                
                 
 
                 
@@ -316,6 +315,7 @@
         {
             if (!spinning)
             {
+                       
                 float maxAngle = 360 * FortuneWheelConfig.Instance.speedMultiplier + targetToStopOn * anglePerReward;
          //       AnimateWheel(false);
                 StartCoroutine(RotateWheel(FortuneWheelConfig.Instance.duration, maxAngle));
@@ -401,6 +401,11 @@
 
         IEnumerator PlayAnimationWhenStationary(Sprite sp1, Sprite sp2)
         {
+            if (QuizCompletedCounter == 2)
+                {
+                     DiCosaSonoFatto.SetActive(true);
+                    QuizCompleto.SetActive(true);
+                } 
             yield return new WaitForSeconds(0.2f);
             count++;
             for (int i = 0; i < lightObjs.Length; i++)
