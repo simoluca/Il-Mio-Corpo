@@ -47,6 +47,7 @@
         bool spinning;
         float anglePerReward, anglePerLight;
         int QuizToRemove;
+        int QuizCompletedCounter = 0;
 
         // list for active (non completed) quizes.
         // completed quizes will be removed from the list and not be considered by the wheel spin
@@ -120,21 +121,25 @@
                  }
                     if(_selectReward == 9)
                  {
+                    QuizCompletedCounter ++;
                     //ANCORA NON ESISTE
                     QuizesList.RemoveAt(QuizToRemove); 
                  }
                     if(_selectReward == 10)
                  {
+                    QuizCompletedCounter ++;
                     //ANCORA NON ESISTE
                     QuizesList.RemoveAt(QuizToRemove);
                  }
                     if(_selectReward == 11)
                  {
+                    QuizCompletedCounter ++;
                     //ANCORA NON ESISTE
                     QuizesList.RemoveAt(QuizToRemove);
                  }
                     if(_selectReward == 12)
                  {
+                    QuizCompletedCounter ++;
                     //ANCORA NON ESISTE
                 QuizesList.RemoveAt(QuizToRemove);
                  }
@@ -220,43 +225,51 @@
                 if(_selectReward == 1 && correctpopupLargeIntestine.activeSelf == true)
                     {
                         QuizesList.RemoveAt(QuizToRemove);
+                        QuizCompletedCounter ++;
                         Debug.Log("LARGE INTESTINE ok");
                     }
                 if(_selectReward == 2 && correctpopupSmallIntestine.activeSelf == true)
                     {
                         QuizesList.RemoveAt(QuizToRemove);
+                        QuizCompletedCounter ++;
                         Debug.Log("small INTESTINE ok");
                     }
                 if(_selectReward == 3 && correctpopupQuizStomaco.activeSelf == true)
                     {
                         QuizesList.RemoveAt(QuizToRemove);
+                        QuizCompletedCounter ++;
                         Debug.Log("stomach ok");
                     }
                 if(_selectReward == 4 && correctpopupQuizVescica.activeSelf == true)
                     {
                         QuizesList.RemoveAt(QuizToRemove);
+                        QuizCompletedCounter ++;
                         Debug.Log("bladder ok");
                     }
                 if(_selectReward == 5 && correctpopupQuizSpinaDorsale.activeSelf == true)
                     {
                         QuizesList.RemoveAt(QuizToRemove);
+                        QuizCompletedCounter ++;
                         Debug.Log("spine ok");
                     }
                     
                 if(_selectReward == 6 && correctpopupQuizOcchi.activeSelf == true)
                     {
                         QuizesList.RemoveAt(QuizToRemove);
-                        //Debug.Log("occhi ok");
+                        QuizCompletedCounter ++;
+                        Debug.Log("occhi ok");
                     }
                     
                  if(_selectReward == 7 && correctpopupQuizOssaPiedi.activeSelf == true)
                     {
                         QuizesList.RemoveAt(QuizToRemove);
+                        QuizCompletedCounter ++;
                         Debug.Log("ossa piedi ok");
                     }
                 if(_selectReward == 8 && correctpopupQuizOssaGambe.activeSelf == true)
                     {
                         QuizesList.RemoveAt(QuizToRemove);
+                        QuizCompletedCounter ++;
                         Debug.Log("leg ok");
                     }
                     /*
@@ -268,8 +281,6 @@
                     */
                     
                 
-                
-
 
                 
                 // random element from 0 to 11
