@@ -37,6 +37,7 @@
         public GameObject correctpopupQuizStomaco;
         public GameObject correctpopupQuizOcchi;
         public GameObject correctpopupQuizOssaPiedi;
+        public GameObject correctpopupQuizOssaMano;
 
 
         //Random random = new Random();
@@ -278,13 +279,14 @@
                         QuizCompletedCounter ++;
                         Debug.Log("leg ok");
                     }
-                    /*
-                if(_selectReward == 9 && .activeSelf == true)
+                    
+                if(_selectReward == 9 && correctpopupQuizOssaMano.activeSelf == true)
                     {
                         QuizesList.RemoveAt(QuizToRemove);
-                        Debug.Log("ANCORA NON ESISTE");
+                        QuizCompletedCounter ++;
+                        Debug.Log("brain ok");
                     }
-                    */
+                    
                 
                    if (QuizCompletedCounter == 10)
                 {
