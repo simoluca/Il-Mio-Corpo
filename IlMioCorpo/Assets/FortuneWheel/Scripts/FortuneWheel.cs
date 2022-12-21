@@ -125,9 +125,8 @@
                  }
                     if(_selectReward == 9)
                  {
-                    QuizCompletedCounter ++;
-                    //ANCORA NON ESISTE
-                    QuizesList.RemoveAt(QuizToRemove); 
+                    DiCosaSonoFatto.SetActive(true);
+                    QuizOssaMano.SetActive(true);
                  }
                     if(_selectReward == 10)
                  {
