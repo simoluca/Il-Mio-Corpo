@@ -26,7 +26,7 @@
         public Transform wheelPartsParent, lightsParent;
 
         public GameObject DiCosaSonoFatto, QuizOcchi, QuizIntestinoCrasso, QuizOssaGambe, QuizOssaPiedi, 
-        QuizSpinaDorsale, QuizStomaco, QuizVescica, QuizIntestinoTenue, QuizCompleto;
+        QuizSpinaDorsale, QuizStomaco, QuizVescica, QuizIntestinoTenue, QuizCompleto, QuizOssaMano;
 
         public GameObject winParticles;
         public GameObject correctpopupLargeIntestine;
