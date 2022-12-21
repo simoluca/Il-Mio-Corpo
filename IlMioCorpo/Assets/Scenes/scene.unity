@@ -10709,7 +10709,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &425572995
 RectTransform:
   m_ObjectHideFlags: 0
@@ -41710,7 +41710,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: "Il cervello \xE8 come un potente computer che controlla tutto ci\xF2 che
+    fai. Ti permette di pensare, muovervi, respirare e dare un senso al mondo che
+    ti circonda. Inoltre, memorizza le informazioni per imparare e ricordare le cose.
+    Le diverse parti del cervello svolgono compiti diversi. I nervi trasportano informazioni
+    e istruzioni tra il cervello e il resto del corpo."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: b246c4190f4e46ec9352fe15a7b09ce0, type: 2}
