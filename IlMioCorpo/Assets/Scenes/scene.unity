@@ -24119,7 +24119,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1016231995
 RectTransform:
   m_ObjectHideFlags: 0
@@ -24159,6 +24159,7 @@ MonoBehaviour:
   CorrettoPopUp: {fileID: 623472020}
   CorrectAudio: {fileID: 1406124398}
   WrongAudio: {fileID: 919831972}
+  QuestionMark: {fileID: 1432563689}
 --- !u!114 &1016231997
 MonoBehaviour:
   m_ObjectHideFlags: 0
