@@ -11,19 +11,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Di cosa sono fatto/Di cosa sono fatto.unity
     guid: 9ad2e3372cc4c014ab8d368535a5246c
-  - enabled: 1
-    path: Assets/Scenes/QuizOssaGamba.unity
-    guid: 5ac3d945783acda48890f10a411c4933
-  - enabled: 1
-    path: Assets/Scenes/QuizIntestinoCrasso.unity
-    guid: 07f3bd0f0f7782940af037c9c53317cb
-  - enabled: 1
-    path: Assets/Scenes/QuizOssaPiedi.unity
-    guid: 6b200f38384cd7d4c9827d3db1cbc891
-  - enabled: 1
-    path: Assets/Scenes/QuizStomaco.unity
-    guid: ed9828511385af44db9de6f63ae1a23b
-  - enabled: 1
-    path: Assets/Scenes/QuizVescica.unity
-    guid: cbf3a38e044fb0249a9e4eb78379e03e
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}
